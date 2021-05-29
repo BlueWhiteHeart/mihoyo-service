@@ -1,0 +1,57 @@
+2021-05-27 18:19:15,145 INFO 31125 [egg:logger] init all loggers with options: {"dir":"/Users/majie/egg-example/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-27 18:19:15,165 INFO 31125 [egg-multipart] stream mode enable
+2021-05-27 18:19:15,297 INFO 31125 [egg-static] starting static serve /public/ -> /Users/majie/egg-example/app/public
+2021-05-27 18:19:15,299 INFO 31125 [egg-security] use csrf middleware
+2021-05-27 18:19:15,300 INFO 31125 [egg-security] use methodnoallow middleware
+2021-05-27 18:19:15,301 INFO 31125 [egg-security] use noopen middleware
+2021-05-27 18:19:15,304 INFO 31125 [egg-security] use nosniff middleware
+2021-05-27 18:19:15,305 INFO 31125 [egg-security] use xssProtection middleware
+2021-05-27 18:19:15,306 INFO 31125 [egg-security] use xframe middleware
+2021-05-27 18:19:15,306 INFO 31125 [egg-security] use dta middleware
+2021-05-27 18:19:15,306 INFO 31125 [egg-security] compose 7 middlewares into one security middleware
+2021-05-27 18:19:15,315 INFO 31125 [egg:core] dump config after load, 4ms
+2021-05-27 18:19:15,326 INFO 31125 [egg-watcher:application] watcher start success
+2021-05-27 18:19:15,332 INFO 31125 [egg:core] dump config after ready, 4ms
+2021-05-27 18:20:17,274 INFO 31138 [egg:logger] init all loggers with options: {"dir":"/Users/majie/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-27 18:20:17,296 INFO 31138 [egg-multipart] stream mode enable
+2021-05-27 18:20:17,416 INFO 31138 [egg-static] starting static serve /public/ -> /Users/majie/mihoyo-server/app/public
+2021-05-27 18:20:17,418 INFO 31138 [egg-security] use csrf middleware
+2021-05-27 18:20:17,418 INFO 31138 [egg-security] use methodnoallow middleware
+2021-05-27 18:20:17,419 INFO 31138 [egg-security] use noopen middleware
+2021-05-27 18:20:17,420 INFO 31138 [egg-security] use nosniff middleware
+2021-05-27 18:20:17,420 INFO 31138 [egg-security] use xssProtection middleware
+2021-05-27 18:20:17,421 INFO 31138 [egg-security] use xframe middleware
+2021-05-27 18:20:17,422 INFO 31138 [egg-security] use dta middleware
+2021-05-27 18:20:17,422 INFO 31138 [egg-security] compose 7 middlewares into one security middleware
+2021-05-27 18:20:17,429 INFO 31138 [egg:core] dump config after load, 3ms
+2021-05-27 18:20:17,439 INFO 31138 [egg-watcher:application] watcher start success
+2021-05-27 18:20:17,445 INFO 31138 [egg:core] dump config after ready, 4ms
+2021-05-29 16:01:30,632 INFO 7904 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 16:01:30,681 INFO 7904 [egg-multipart] stream mode enable
+2021-05-29 16:01:31,151 INFO 7904 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 16:01:31,157 INFO 7904 [egg-security] use csrf middleware
+2021-05-29 16:01:31,158 INFO 7904 [egg-security] use methodnoallow middleware
+2021-05-29 16:01:31,159 INFO 7904 [egg-security] use noopen middleware
+2021-05-29 16:01:31,160 INFO 7904 [egg-security] use nosniff middleware
+2021-05-29 16:01:31,160 INFO 7904 [egg-security] use xssProtection middleware
+2021-05-29 16:01:31,161 INFO 7904 [egg-security] use xframe middleware
+2021-05-29 16:01:31,162 INFO 7904 [egg-security] use dta middleware
+2021-05-29 16:01:31,162 INFO 7904 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 16:01:31,178 INFO 7904 [egg:core] dump config after load, 11ms
+2021-05-29 16:01:31,193 INFO 7904 [egg-watcher:application] watcher start success
+2021-05-29 16:01:31,209 INFO 7904 [egg:core] dump config after ready, 14ms
+2021-05-29 16:06:23,003 INFO 8326 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 16:06:23,041 INFO 8326 [egg-multipart] file mode enable
+2021-05-29 16:06:23,041 INFO 8326 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 16:06:23,324 INFO 8326 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 16:06:23,326 INFO 8326 [egg-security] use csrf middleware
+2021-05-29 16:06:23,326 INFO 8326 [egg-security] use methodnoallow middleware
+2021-05-29 16:06:23,327 INFO 8326 [egg-security] use noopen middleware
+2021-05-29 16:06:23,328 INFO 8326 [egg-security] use nosniff middleware
+2021-05-29 16:06:23,328 INFO 8326 [egg-security] use xssProtection middleware
+2021-05-29 16:06:23,328 INFO 8326 [egg-security] use xframe middleware
+2021-05-29 16:06:23,329 INFO 8326 [egg-security] use dta middleware
+2021-05-29 16:06:23,329 INFO 8326 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 16:06:23,339 INFO 8326 [egg:core] dump config after load, 7ms
+2021-05-29 16:06:23,347 INFO 8326 [egg-watcher:application] watcher start success
+2021-05-29 16:06:23,356 INFO 8326 [egg:core] dump config after ready, 6ms

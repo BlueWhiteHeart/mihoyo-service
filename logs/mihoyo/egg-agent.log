@@ -1,0 +1,21 @@
+2021-05-27 18:19:14,384 INFO 31124 [egg:logger] init all loggers with options: {"dir":"/Users/majie/egg-example/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-27 18:19:14,391 INFO 31124 [egg:core] dump config after load, 3ms
+2021-05-27 18:19:14,428 INFO 31124 [egg-watcher] Start watching: ["/Users/majie/egg-example/app","/Users/majie/egg-example/config","/Users/majie/egg-example/mocks","/Users/majie/egg-example/mocks_proxy","/Users/majie/egg-example/app.js"]
+2021-05-27 18:19:14,428 INFO 31124 [egg-watcher] Start watching: "/Users/majie/egg-example/app"
+2021-05-27 18:19:14,428 INFO 31124 [egg-watcher] Start watching: "/Users/majie/egg-example/config"
+2021-05-27 18:19:14,428 INFO 31124 [egg-watcher] Start watching: "/Users/majie/egg-example/mocks"
+2021-05-27 18:19:14,428 INFO 31124 [egg-watcher] Start watching: "/Users/majie/egg-example/mocks_proxy"
+2021-05-27 18:19:14,429 INFO 31124 [egg-watcher] Start watching: "/Users/majie/egg-example/app.js"
+2021-05-27 18:19:14,429 INFO 31124 [egg-watcher:agent] watcher start success
+2021-05-27 18:19:14,436 INFO 31124 [egg:core] dump config after ready, 4ms
+2021-05-27 18:19:15,309 INFO 31124 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/majie/egg-example/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18763305,"size":64,"blocks":0,"atimeMs":1622110755297.5366,"mtimeMs":1622110755297.5366,"ctimeMs":1622110755297.5366,"birthtimeMs":1622110755297.5366,"atime":"2021-05-27T10:19:15.298Z","mtime":"2021-05-27T10:19:15.298Z","ctime":"2021-05-27T10:19:15.298Z","birthtime":"2021-05-27T10:19:15.298Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-05-27 18:20:16,497 INFO 31137 [egg:logger] init all loggers with options: {"dir":"/Users/majie/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-27 18:20:16,504 INFO 31137 [egg:core] dump config after load, 3ms
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: ["/Users/majie/mihoyo-server/app","/Users/majie/mihoyo-server/config","/Users/majie/mihoyo-server/mocks","/Users/majie/mihoyo-server/mocks_proxy","/Users/majie/mihoyo-server/app.js"]
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: "/Users/majie/mihoyo-server/app"
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: "/Users/majie/mihoyo-server/config"
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: "/Users/majie/mihoyo-server/mocks"
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: "/Users/majie/mihoyo-server/mocks_proxy"
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher] Start watching: "/Users/majie/mihoyo-server/app.js"
+2021-05-27 18:20:16,545 INFO 31137 [egg-watcher:agent] watcher start success
+2021-05-27 18:20:16,555 INFO 31137 [egg:core] dump config after ready, 4ms

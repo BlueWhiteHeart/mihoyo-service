@@ -1,0 +1,18 @@
+2021-05-27 18:19:15,338 INFO 31124 [Timer] /Users/majie/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36644665ms at 2021-05-28 04:30:00.003
+2021-05-27 18:19:15,338 INFO 31124 [Timer] /Users/majie/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20444662ms at 2021-05-28 00:00:00.000
+2021-05-27 18:19:15,338 INFO 31124 [Timer] /Users/majie/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20445662ms at 2021-05-28 00:00:01.000
+2021-05-27 18:19:15,164 INFO 31125 [egg-schedule]: register schedule /Users/majie/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-27 18:19:15,164 INFO 31125 [egg-schedule]: register schedule /Users/majie/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-27 18:19:15,164 INFO 31125 [egg-schedule]: register schedule /Users/majie/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-27 18:20:17,450 INFO 31137 [Timer] /Users/majie/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36582552ms at 2021-05-28 04:30:00.002
+2021-05-27 18:20:17,450 INFO 31137 [Timer] /Users/majie/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20382550ms at 2021-05-28 00:00:00.000
+2021-05-27 18:20:17,451 INFO 31137 [Timer] /Users/majie/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20383550ms at 2021-05-28 00:00:01.001
+2021-05-27 18:20:17,295 INFO 31138 [egg-schedule]: register schedule /Users/majie/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-27 18:20:17,295 INFO 31138 [egg-schedule]: register schedule /Users/majie/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-27 18:20:17,295 INFO 31138 [egg-schedule]: register schedule /Users/majie/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 16:01:30,680 INFO 7904 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 16:01:30,680 INFO 7904 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 16:01:30,680 INFO 7904 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

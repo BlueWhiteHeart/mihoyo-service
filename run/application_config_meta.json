@@ -1,0 +1,345 @@
+{
+  "logger": {
+    "outputJSON": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "frontLogger": {
+      "maxFileSize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "file": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "contextFormatter": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+    },
+    "dir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "swaggerdoc": {
+    "scandir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "apiInfo": {
+      "title": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "description": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "version": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+    },
+    "schemes": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "enableSecurity": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+  },
+  "swagger": {
+    "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "mountPath": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "swaggerFilePath": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "enableGoogleFont": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "host": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "password": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "db": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+    }
+  },
+  "mongoose": {
+    "client": {
+      "url": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+      "options": {
+        "useNewUrlParser": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+        "authSource": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+        "auth": {
+          "user": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+          "password": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js"
+        }
+      }
+    }
+  },
+  "static": {
+    "dir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "secretId": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "secretKey": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "bucket": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "region": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "prefix": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/config.default.js"
+  },
+  "multipart": {
+    "fileSize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "mode": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "fileExtensions": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+    "autoFields": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "keys": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+  "middleware": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/config.default.js"
+}
