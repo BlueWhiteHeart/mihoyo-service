@@ -18,7 +18,7 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "type": "ctoken",
         "ignoreJSON": false,
         "useSession": false,
@@ -27,8 +27,7 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
-        "refererWhiteList": [],
-        "matching": "<Function anonymous>"
+        "refererWhiteList": []
       },
       "xframe": {
         "enable": true,
@@ -107,6 +106,10 @@
         "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/config/locales",
         "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-static/config/locales",
         "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view/config/locales",
+        "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/config/locales",
+        "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-validate/config/locales",
+        "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-helper/config/locales",
+        "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/config/locales",
         "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/locales",
         "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/locales"
       ],
@@ -198,6 +201,49 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://172.25.1.8:27017/oa",
+        "options": {
+          "useNewUrlParser": true,
+          "authSource": "admin",
+          "auth": {
+            "user": "ne-fe",
+            "password": "<String len: 16>"
+          }
+        }
+      }
+    },
+    "validate": {},
+    "swaggerdoc": {
+      "dirScanner": "./app/controller",
+      "basePath": "/",
+      "apiInfo": {
+        "title": "mihoyo后台接口API",
+        "description": "swagger展示",
+        "version": "1.0.0"
+      },
+      "schemes": [
+        "http"
+      ],
+      "consumes": [
+        "application/json"
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "securityDefinitions": {},
+      "enableSecurity": false,
+      "routerMap": false,
+      "enable": true,
+      "scandir": "./app/controller"
+    },
     "env": "local",
     "name": "mihoyo",
     "keys": "<String len: 12>",
@@ -217,8 +263,14 @@
         "declarations": true
       },
       "dependencies": {
+        "cos-nodejs-sdk-v5": "^2.9.17",
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-helper": "^1.1.5",
+        "egg-mongoose": "^3.3.1",
+        "egg-scripts": "^2.11.0",
+        "egg-swagger": "^1.2.2",
+        "egg-swagger-doc": "^2.3.2",
+        "egg-validate": "^2.0.2"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -362,18 +414,8 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "swaggerdoc": {
-      "scandir": "./app/controller",
-      "apiInfo": {
-        "title": "mihoyo后台接口API",
-        "description": "swagger展示",
-        "version": "1.0.0"
-      },
-      "schemes": [
-        "http"
-      ],
-      "enable": true,
-      "enableSecurity": false
+    "csrf": {
+      "headerName": "x-csrf-token"
     },
     "swagger": {
       "enable": true,
@@ -387,19 +429,6 @@
         "host": "127.0.0.1",
         "password": "<String len: 4>",
         "db": 0
-      }
-    },
-    "mongoose": {
-      "client": {
-        "url": "mongodb://172.25.1.8:27017/oa",
-        "options": {
-          "useNewUrlParser": true,
-          "authSource": "admin",
-          "auth": {
-            "user": "ne-fe",
-            "password": "<String len: 16>"
-          }
-        }
       }
     },
     "middleware": [],
@@ -565,6 +594,50 @@
       "from": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/config/plugin.js",
       "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-view",
       "version": "2.1.3"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/plugin.js",
+      "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose",
+      "version": "3.3.1"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/plugin.js",
+      "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-validate",
+      "version": "2.0.2"
+    },
+    "helper": {
+      "enable": true,
+      "package": "egg-helper",
+      "name": "helper",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/plugin.js",
+      "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-helper",
+      "version": "1.1.5"
+    },
+    "swaggerdoc": {
+      "enable": true,
+      "package": "egg-swagger-doc",
+      "name": "swaggerdoc",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/config/plugin.js",
+      "path": "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc",
+      "version": "2.3.2"
     }
   }
 }

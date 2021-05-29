@@ -1,0 +1,1211 @@
+2021-05-29 21:03:35,747 ERROR 24831 [-/127.0.0.1/-/5ms GET /test] nodejs.ReferenceError: test is not defined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:12:17)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 24831
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:19:05,267 ERROR 27947 [-/127.0.0.1/-/7ms GET /test] nodejs.TypeError: Cannot read property 'succeedUtil' of undefined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:14:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 27947
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:19:36,141 ERROR 28057 [-/127.0.0.1/-/12ms GET /test] nodejs.TypeError: Cannot read property 'succeedUtil' of undefined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 28057
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:29:28,024 ERROR 28884 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28884
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:00,093 ERROR 28957 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28957
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:11,148 ERROR 28995 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28995
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:12,884 ERROR 29001 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 29001
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:31,410 ERROR 29034 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 29034
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:05,133 ERROR 29180 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:05,134 ERROR 29180 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:05,136 ERROR 29180 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:05,143 ERROR 29180 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:11,550 ERROR 29203 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:11,552 ERROR 29203 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:11,572 ERROR 29203 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:11,587 ERROR 29203 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,408 ERROR 29213 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:16,409 ERROR 29213 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,411 ERROR 29213 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,417 ERROR 29213 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:35,920 ERROR 29248 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:35,921 ERROR 29248 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:35,924 ERROR 29248 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:35,941 ERROR 29248 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:54,012 ERROR 29388 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:35:54,014 ERROR 29388 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:54,016 ERROR 29388 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:54,021 ERROR 29388 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:10,746 ERROR 29423 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:10,747 ERROR 29423 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:10,749 ERROR 29423 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:10,753 ERROR 29423 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:22,060 ERROR 29449 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:22,061 ERROR 29449 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:22,064 ERROR 29449 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:22,065 ERROR 29449 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:51,942 ERROR 29512 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:51,943 ERROR 29512 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:51,946 ERROR 29512 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:51,964 ERROR 29512 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,256 ERROR 29548 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:37:16,259 ERROR 29548 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,262 ERROR 29548 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,267 ERROR 29548 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,591 ERROR 29564 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:37:19,594 ERROR 29564 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,596 ERROR 29564 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,613 ERROR 29564 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:39:10,936 ERROR 29853 [-/127.0.0.1/-/16ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/middleware/multipart.js:10:38)
+
+pid: 29853
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:12,240 ERROR 29922 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:21,448 ERROR 29922 [-/127.0.0.1/-/9ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:33,219 ERROR 29922 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:41:10,874 ERROR 29922 [-/127.0.0.1/-/16ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:42:30,308 ERROR 30063 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:8:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 30063
+hostname: baixindeMacBook-Pro.local
+

@@ -16,3 +16,222 @@
 2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
 2021-05-29 16:06:23,040 INFO 8326 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 19:23:25,960 INFO 18455 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32794043ms at 2021-05-30 04:30:00.003
+2021-05-29 19:23:25,960 INFO 18455 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16594040ms at 2021-05-30 00:00:00.000
+2021-05-29 19:23:25,961 INFO 18455 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16595040ms at 2021-05-30 00:00:01.001
+2021-05-29 19:23:25,526 INFO 18458 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 19:23:25,526 INFO 18458 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 19:23:25,526 INFO 18458 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 19:45:10,256 INFO 20013 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31489747ms at 2021-05-30 04:30:00.003
+2021-05-29 19:45:10,256 INFO 20013 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15289744ms at 2021-05-30 00:00:00.000
+2021-05-29 19:45:10,256 INFO 20013 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15290744ms at 2021-05-30 00:00:01.000
+2021-05-29 19:45:09,893 INFO 20017 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 19:45:09,893 INFO 20017 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 19:45:09,893 INFO 20017 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 19:45:12,466 INFO 20029 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 19:45:12,466 INFO 20029 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 19:45:12,466 INFO 20029 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 20:07:31,509 INFO 21599 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 20:07:31,509 INFO 21599 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 20:07:31,509 INFO 21599 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 20:07:31,886 INFO 21596 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30148116ms at 2021-05-30 04:30:00.002
+2021-05-29 20:07:31,886 INFO 21596 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13948114ms at 2021-05-30 00:00:00.000
+2021-05-29 20:07:31,887 INFO 21596 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13949114ms at 2021-05-30 00:00:01.001
+2021-05-29 20:41:48,510 INFO 23425 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 28091494ms at 2021-05-30 04:30:00.004
+2021-05-29 20:41:48,510 INFO 23425 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11891490ms at 2021-05-30 00:00:00.000
+2021-05-29 20:41:48,511 INFO 23425 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11892489ms at 2021-05-30 00:00:01.000
+2021-05-29 20:41:48,023 INFO 23426 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 20:41:48,023 INFO 23426 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 20:41:48,023 INFO 23426 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:03:31,275 INFO 24831 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:03:31,275 INFO 24831 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:03:31,275 INFO 24831 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:05:41,302 INFO 24919 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:05:41,302 INFO 24919 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:05:41,302 INFO 24919 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:05:45,713 INFO 24937 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:05:45,713 INFO 24937 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:05:45,713 INFO 24937 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:05:51,090 INFO 24951 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:05:51,090 INFO 24951 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:05:51,090 INFO 24951 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:05:52,442 INFO 24952 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:05:52,442 INFO 24952 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:05:52,442 INFO 24952 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:13:35,194 INFO 25399 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:13:35,194 INFO 25399 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:13:35,194 INFO 25399 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 21:13:36,441 INFO 25409 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 21:13:36,441 INFO 25409 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 21:13:36,441 INFO 25409 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:04:50,743 INFO 26665 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:04:50,743 INFO 26665 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:04:50,743 INFO 26665 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:05:02,602 INFO 26692 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:05:02,603 INFO 26692 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:05:02,603 INFO 26692 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:05:03,958 INFO 26703 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:05:03,958 INFO 26703 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:05:03,958 INFO 26703 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:11:14,006 INFO 27211 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:11:14,006 INFO 27211 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:11:14,006 INFO 27211 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:11:26,554 INFO 27230 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:11:26,554 INFO 27230 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:11:26,554 INFO 27230 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:12:59,879 INFO 27382 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:12:59,879 INFO 27382 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:12:59,879 INFO 27382 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:13:05,689 INFO 27410 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:13:05,689 INFO 27410 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:13:05,689 INFO 27410 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:15:04,939 INFO 27569 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:15:04,939 INFO 27569 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:15:04,939 INFO 27569 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:15:18,112 INFO 27608 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:15:18,112 INFO 27608 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:15:18,112 INFO 27608 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:15:34,692 INFO 27635 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:15:34,692 INFO 27635 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:15:34,692 INFO 27635 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:15:44,710 INFO 27643 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:15:44,710 INFO 27643 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:15:44,710 INFO 27643 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:15:50,595 INFO 27651 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:15:50,595 INFO 27651 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:15:50,595 INFO 27651 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:03,353 INFO 27681 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:03,354 INFO 27681 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:03,354 INFO 27681 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:09,645 INFO 27707 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:09,645 INFO 27707 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:09,645 INFO 27707 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:49,178 INFO 27845 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:49,178 INFO 27845 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:49,178 INFO 27845 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:53,273 INFO 27854 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:53,273 INFO 27854 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:53,273 INFO 27854 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:54,961 INFO 27857 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:54,961 INFO 27857 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:54,961 INFO 27857 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:16:58,542 INFO 27866 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:16:58,542 INFO 27866 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:16:58,542 INFO 27866 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:01,119 INFO 27868 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:01,119 INFO 27868 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:01,119 INFO 27868 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:03,170 INFO 27879 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:03,170 INFO 27879 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:03,170 INFO 27879 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:07,909 INFO 27887 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:07,909 INFO 27887 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:07,909 INFO 27887 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:09,780 INFO 27889 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:09,780 INFO 27889 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:09,780 INFO 27889 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:27,823 INFO 27908 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:27,823 INFO 27908 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:27,823 INFO 27908 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:34,175 INFO 27916 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:34,175 INFO 27916 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:34,175 INFO 27916 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:53,927 INFO 27947 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:17:53,927 INFO 27947 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:17:53,927 INFO 27947 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:17:54,129 INFO 27946 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18725873ms at 2021-05-30 04:30:00.002
+2021-05-29 23:17:54,129 INFO 27946 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2525871ms at 2021-05-30 00:00:00.000
+2021-05-29 23:17:54,129 INFO 27946 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2526871ms at 2021-05-30 00:00:01.000
+2021-05-29 23:19:29,974 INFO 28048 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:19:29,974 INFO 28048 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:19:29,974 INFO 28048 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:19:32,526 INFO 28057 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:19:32,526 INFO 28057 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:19:32,526 INFO 28057 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:19:56,241 INFO 28074 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:19:56,241 INFO 28074 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:19:56,241 INFO 28074 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:21:03,372 INFO 28186 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:21:03,372 INFO 28186 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:21:03,372 INFO 28186 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:23:29,347 INFO 28368 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:23:29,347 INFO 28368 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:23:29,347 INFO 28368 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:23:29,737 INFO 28366 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18390266ms at 2021-05-30 04:30:00.003
+2021-05-29 23:23:29,737 INFO 28366 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2190263ms at 2021-05-30 00:00:00.000
+2021-05-29 23:23:29,738 INFO 28366 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2191262ms at 2021-05-30 00:00:01.000
+2021-05-29 23:29:27,289 INFO 28884 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:29:27,289 INFO 28884 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:29:27,289 INFO 28884 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:30:59,278 INFO 28957 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:30:59,278 INFO 28957 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:30:59,278 INFO 28957 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:31:10,504 INFO 28995 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:31:10,504 INFO 28995 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:31:10,504 INFO 28995 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:31:12,368 INFO 29001 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:31:12,368 INFO 29001 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:31:12,368 INFO 29001 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:31:30,709 INFO 29034 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:31:30,709 INFO 29034 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:31:30,709 INFO 29034 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:33:54,779 INFO 29180 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:33:54,779 INFO 29180 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:33:54,779 INFO 29180 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:34:01,280 INFO 29203 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:34:01,280 INFO 29203 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:34:01,280 INFO 29203 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:34:06,074 INFO 29213 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:34:06,074 INFO 29213 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:34:06,074 INFO 29213 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:34:25,569 INFO 29248 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:34:25,569 INFO 29248 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:34:25,569 INFO 29248 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:35:43,703 INFO 29388 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:35:43,703 INFO 29388 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:35:43,703 INFO 29388 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:36:00,466 INFO 29423 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:36:00,466 INFO 29423 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:36:00,466 INFO 29423 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:36:11,773 INFO 29449 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:36:11,773 INFO 29449 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:36:11,773 INFO 29449 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:36:41,697 INFO 29512 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:36:41,697 INFO 29512 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:36:41,697 INFO 29512 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:37:06,008 INFO 29548 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:37:06,008 INFO 29548 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:37:06,008 INFO 29548 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:37:09,349 INFO 29564 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:37:09,349 INFO 29564 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:37:09,349 INFO 29564 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:38:51,379 INFO 29853 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:38:51,379 INFO 29853 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:38:51,379 INFO 29853 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:38:52,664 INFO 29845 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17467339ms at 2021-05-30 04:30:00.003
+2021-05-29 23:38:52,665 INFO 29845 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1267335ms at 2021-05-30 00:00:00.000
+2021-05-29 23:38:52,665 INFO 29845 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1268335ms at 2021-05-30 00:00:01.000
+2021-05-29 23:39:29,409 INFO 29895 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:39:29,409 INFO 29895 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:39:29,409 INFO 29895 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:39:29,409 INFO 29896 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:39:29,409 INFO 29896 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:39:29,409 INFO 29896 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:39:32,677 INFO 29922 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:39:32,677 INFO 29922 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:39:32,677 INFO 29922 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:40:41,252 INFO 29977 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:40:41,252 INFO 29977 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:40:41,252 INFO 29977 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:40:42,283 INFO 29976 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17357719ms at 2021-05-30 04:30:00.002
+2021-05-29 23:40:42,284 INFO 29976 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1157716ms at 2021-05-30 00:00:00.000
+2021-05-29 23:40:42,284 INFO 29976 [Timer] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1158716ms at 2021-05-30 00:00:01.000
+2021-05-29 23:42:22,222 INFO 30046 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:42:22,222 INFO 30046 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:42:22,222 INFO 30046 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:42:27,428 INFO 30063 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:42:27,428 INFO 30063 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:42:27,428 INFO 30063 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-05-29 23:42:55,469 INFO 30127 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-05-29 23:42:55,469 INFO 30127 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-05-29 23:42:55,469 INFO 30127 [egg-schedule]: register schedule /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

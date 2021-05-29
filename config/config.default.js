@@ -6,12 +6,16 @@ const path = require('path');
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
+
 module.exports = appInfo => {
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
    **/
   const config = exports = {
+    csrf: {
+      headerName: 'x-csrf-token', // 自定义请求头
+    },
     logger: {
       // maxFileSize: 2 * 1024 * 1024 * 1024,
       outputJSON: true,
