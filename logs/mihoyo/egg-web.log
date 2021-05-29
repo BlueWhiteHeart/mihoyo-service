@@ -55,3 +55,1652 @@
 2021-05-29 16:06:23,339 INFO 8326 [egg:core] dump config after load, 7ms
 2021-05-29 16:06:23,347 INFO 8326 [egg-watcher:application] watcher start success
 2021-05-29 16:06:23,356 INFO 8326 [egg:core] dump config after ready, 6ms
+2021-05-29 19:23:25,501 INFO 18458 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 19:23:25,527 INFO 18458 [egg-multipart] file mode enable
+2021-05-29 19:23:25,527 INFO 18458 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 19:23:25,914 INFO 18458 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 19:23:25,918 INFO 18458 [egg-security] use csrf middleware
+2021-05-29 19:23:25,919 INFO 18458 [egg-security] use methodnoallow middleware
+2021-05-29 19:23:25,920 INFO 18458 [egg-security] use noopen middleware
+2021-05-29 19:23:25,921 INFO 18458 [egg-security] use nosniff middleware
+2021-05-29 19:23:25,922 INFO 18458 [egg-security] use xssProtection middleware
+2021-05-29 19:23:25,924 INFO 18458 [egg-security] use xframe middleware
+2021-05-29 19:23:25,925 INFO 18458 [egg-security] use dta middleware
+2021-05-29 19:23:25,925 INFO 18458 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 19:23:25,938 INFO 18458 [egg:core] dump config after load, 7ms
+2021-05-29 19:23:25,948 INFO 18458 [egg-watcher:application] watcher start success
+2021-05-29 19:23:25,955 INFO 18458 [egg:core] dump config after ready, 5ms
+2021-05-29 19:45:09,874 INFO 20017 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 19:45:09,894 INFO 20017 [egg-multipart] file mode enable
+2021-05-29 19:45:09,894 INFO 20017 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 19:45:10,211 INFO 20017 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 19:45:10,213 INFO 20017 [egg-security] use csrf middleware
+2021-05-29 19:45:10,214 INFO 20017 [egg-security] use methodnoallow middleware
+2021-05-29 19:45:10,215 INFO 20017 [egg-security] use noopen middleware
+2021-05-29 19:45:10,216 INFO 20017 [egg-security] use nosniff middleware
+2021-05-29 19:45:10,217 INFO 20017 [egg-security] use xssProtection middleware
+2021-05-29 19:45:10,219 INFO 20017 [egg-security] use xframe middleware
+2021-05-29 19:45:10,220 INFO 20017 [egg-security] use dta middleware
+2021-05-29 19:45:10,220 INFO 20017 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 19:45:10,231 INFO 20017 [egg:core] dump config after load, 7ms
+2021-05-29 19:45:10,242 INFO 20017 [egg-watcher:application] watcher start success
+2021-05-29 19:45:10,248 INFO 20017 [egg:core] dump config after ready, 5ms
+2021-05-29 19:45:12,448 INFO 20029 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 19:45:12,466 INFO 20029 [egg-multipart] file mode enable
+2021-05-29 19:45:12,466 INFO 20029 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 19:45:12,783 INFO 20029 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 19:45:12,786 INFO 20029 [egg-security] use csrf middleware
+2021-05-29 19:45:12,787 INFO 20029 [egg-security] use methodnoallow middleware
+2021-05-29 19:45:12,787 INFO 20029 [egg-security] use noopen middleware
+2021-05-29 19:45:12,788 INFO 20029 [egg-security] use nosniff middleware
+2021-05-29 19:45:12,788 INFO 20029 [egg-security] use xssProtection middleware
+2021-05-29 19:45:12,788 INFO 20029 [egg-security] use xframe middleware
+2021-05-29 19:45:12,789 INFO 20029 [egg-security] use dta middleware
+2021-05-29 19:45:12,789 INFO 20029 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 19:45:12,797 INFO 20029 [egg:core] dump config after load, 5ms
+2021-05-29 19:45:12,805 INFO 20029 [egg-watcher:application] watcher start success
+2021-05-29 19:45:12,813 INFO 20029 [egg:core] dump config after ready, 6ms
+2021-05-29 20:07:31,486 INFO 21599 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 20:07:31,510 INFO 21599 [egg-multipart] file mode enable
+2021-05-29 20:07:31,510 INFO 21599 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 20:07:31,840 INFO 21599 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 20:07:31,842 INFO 21599 [egg-security] use csrf middleware
+2021-05-29 20:07:31,843 INFO 21599 [egg-security] use methodnoallow middleware
+2021-05-29 20:07:31,844 INFO 21599 [egg-security] use noopen middleware
+2021-05-29 20:07:31,845 INFO 21599 [egg-security] use nosniff middleware
+2021-05-29 20:07:31,847 INFO 21599 [egg-security] use xssProtection middleware
+2021-05-29 20:07:31,849 INFO 21599 [egg-security] use xframe middleware
+2021-05-29 20:07:31,850 INFO 21599 [egg-security] use dta middleware
+2021-05-29 20:07:31,850 INFO 21599 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 20:07:31,865 INFO 21599 [egg:core] dump config after load, 10ms
+2021-05-29 20:07:31,874 INFO 21599 [egg-watcher:application] watcher start success
+2021-05-29 20:07:31,881 INFO 21599 [egg:core] dump config after ready, 5ms
+2021-05-29 20:41:47,995 INFO 23426 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 20:41:48,023 INFO 23426 [egg-multipart] file mode enable
+2021-05-29 20:41:48,024 INFO 23426 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 20:41:48,460 INFO 23426 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 20:41:48,464 INFO 23426 [egg-security] use csrf middleware
+2021-05-29 20:41:48,465 INFO 23426 [egg-security] use methodnoallow middleware
+2021-05-29 20:41:48,467 INFO 23426 [egg-security] use noopen middleware
+2021-05-29 20:41:48,468 INFO 23426 [egg-security] use nosniff middleware
+2021-05-29 20:41:48,469 INFO 23426 [egg-security] use xssProtection middleware
+2021-05-29 20:41:48,471 INFO 23426 [egg-security] use xframe middleware
+2021-05-29 20:41:48,472 INFO 23426 [egg-security] use dta middleware
+2021-05-29 20:41:48,472 INFO 23426 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 20:41:48,482 INFO 23426 [egg:core] dump config after load, 4ms
+2021-05-29 20:41:48,493 INFO 23426 [egg-watcher:application] watcher start success
+2021-05-29 20:41:48,501 INFO 23426 [egg:core] dump config after ready, 6ms
+2021-05-29 21:03:31,246 INFO 24831 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:03:31,275 INFO 24831 [egg-multipart] file mode enable
+2021-05-29 21:03:31,275 INFO 24831 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:03:31,618 INFO 24831 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:03:31,621 INFO 24831 [egg-security] use csrf middleware
+2021-05-29 21:03:31,622 INFO 24831 [egg-security] use methodnoallow middleware
+2021-05-29 21:03:31,623 INFO 24831 [egg-security] use noopen middleware
+2021-05-29 21:03:31,625 INFO 24831 [egg-security] use nosniff middleware
+2021-05-29 21:03:31,626 INFO 24831 [egg-security] use xssProtection middleware
+2021-05-29 21:03:31,628 INFO 24831 [egg-security] use xframe middleware
+2021-05-29 21:03:31,629 INFO 24831 [egg-security] use dta middleware
+2021-05-29 21:03:31,629 INFO 24831 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:03:31,641 INFO 24831 [egg:core] dump config after load, 7ms
+2021-05-29 21:03:31,650 INFO 24831 [egg-watcher:application] watcher start success
+2021-05-29 21:03:31,657 INFO 24831 [egg:core] dump config after ready, 5ms
+2021-05-29 21:05:41,280 INFO 24919 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:05:41,303 INFO 24919 [egg-multipart] file mode enable
+2021-05-29 21:05:41,303 INFO 24919 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:05:41,486 INFO 24919 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:05:41,487 INFO 24919 [egg-security] use csrf middleware
+2021-05-29 21:05:41,488 INFO 24919 [egg-security] use methodnoallow middleware
+2021-05-29 21:05:41,488 INFO 24919 [egg-security] use noopen middleware
+2021-05-29 21:05:41,489 INFO 24919 [egg-security] use nosniff middleware
+2021-05-29 21:05:41,489 INFO 24919 [egg-security] use xssProtection middleware
+2021-05-29 21:05:41,489 INFO 24919 [egg-security] use xframe middleware
+2021-05-29 21:05:41,490 INFO 24919 [egg-security] use dta middleware
+2021-05-29 21:05:41,490 INFO 24919 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:05:41,498 INFO 24919 [egg:core] dump config after load, 4ms
+2021-05-29 21:05:41,505 INFO 24919 [egg-watcher:application] watcher start success
+2021-05-29 21:05:41,511 INFO 24919 [egg:core] dump config after ready, 5ms
+2021-05-29 21:05:45,685 INFO 24937 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:05:45,714 INFO 24937 [egg-multipart] file mode enable
+2021-05-29 21:05:45,714 INFO 24937 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:05:45,903 INFO 24937 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:05:45,905 INFO 24937 [egg-security] use csrf middleware
+2021-05-29 21:05:45,906 INFO 24937 [egg-security] use methodnoallow middleware
+2021-05-29 21:05:45,906 INFO 24937 [egg-security] use noopen middleware
+2021-05-29 21:05:45,907 INFO 24937 [egg-security] use nosniff middleware
+2021-05-29 21:05:45,907 INFO 24937 [egg-security] use xssProtection middleware
+2021-05-29 21:05:45,907 INFO 24937 [egg-security] use xframe middleware
+2021-05-29 21:05:45,908 INFO 24937 [egg-security] use dta middleware
+2021-05-29 21:05:45,908 INFO 24937 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:05:45,918 INFO 24937 [egg:core] dump config after load, 7ms
+2021-05-29 21:05:45,926 INFO 24937 [egg-watcher:application] watcher start success
+2021-05-29 21:05:45,937 INFO 24937 [egg:core] dump config after ready, 7ms
+2021-05-29 21:05:51,066 INFO 24951 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:05:51,091 INFO 24951 [egg-multipart] file mode enable
+2021-05-29 21:05:51,091 INFO 24951 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:05:51,320 INFO 24951 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:05:51,322 INFO 24951 [egg-security] use csrf middleware
+2021-05-29 21:05:51,323 INFO 24951 [egg-security] use methodnoallow middleware
+2021-05-29 21:05:51,323 INFO 24951 [egg-security] use noopen middleware
+2021-05-29 21:05:51,324 INFO 24951 [egg-security] use nosniff middleware
+2021-05-29 21:05:51,324 INFO 24951 [egg-security] use xssProtection middleware
+2021-05-29 21:05:51,325 INFO 24951 [egg-security] use xframe middleware
+2021-05-29 21:05:51,326 INFO 24951 [egg-security] use dta middleware
+2021-05-29 21:05:51,326 INFO 24951 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:05:51,336 INFO 24951 [egg:core] dump config after load, 7ms
+2021-05-29 21:05:51,345 INFO 24951 [egg-watcher:application] watcher start success
+2021-05-29 21:05:51,352 INFO 24951 [egg:core] dump config after ready, 5ms
+2021-05-29 21:05:52,420 INFO 24952 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:05:52,442 INFO 24952 [egg-multipart] file mode enable
+2021-05-29 21:05:52,442 INFO 24952 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:05:52,616 INFO 24952 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:05:52,618 INFO 24952 [egg-security] use csrf middleware
+2021-05-29 21:05:52,619 INFO 24952 [egg-security] use methodnoallow middleware
+2021-05-29 21:05:52,619 INFO 24952 [egg-security] use noopen middleware
+2021-05-29 21:05:52,619 INFO 24952 [egg-security] use nosniff middleware
+2021-05-29 21:05:52,620 INFO 24952 [egg-security] use xssProtection middleware
+2021-05-29 21:05:52,620 INFO 24952 [egg-security] use xframe middleware
+2021-05-29 21:05:52,620 INFO 24952 [egg-security] use dta middleware
+2021-05-29 21:05:52,620 INFO 24952 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:05:52,631 INFO 24952 [egg:core] dump config after load, 7ms
+2021-05-29 21:05:52,639 INFO 24952 [egg-watcher:application] watcher start success
+2021-05-29 21:05:52,646 INFO 24952 [egg:core] dump config after ready, 5ms
+2021-05-29 21:13:35,167 INFO 25399 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:13:35,195 INFO 25399 [egg-multipart] file mode enable
+2021-05-29 21:13:35,195 INFO 25399 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:13:35,598 INFO 25399 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:13:35,602 INFO 25399 [egg-security] use csrf middleware
+2021-05-29 21:13:35,603 INFO 25399 [egg-security] use methodnoallow middleware
+2021-05-29 21:13:35,604 INFO 25399 [egg-security] use noopen middleware
+2021-05-29 21:13:35,605 INFO 25399 [egg-security] use nosniff middleware
+2021-05-29 21:13:35,606 INFO 25399 [egg-security] use xssProtection middleware
+2021-05-29 21:13:35,607 INFO 25399 [egg-security] use xframe middleware
+2021-05-29 21:13:35,608 INFO 25399 [egg-security] use dta middleware
+2021-05-29 21:13:35,609 INFO 25399 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:13:35,616 INFO 25399 [egg:core] dump config after load, 4ms
+2021-05-29 21:13:35,627 INFO 25399 [egg-watcher:application] watcher start success
+2021-05-29 21:13:35,635 INFO 25399 [egg:core] dump config after ready, 5ms
+2021-05-29 21:13:36,412 INFO 25409 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 21:13:36,442 INFO 25409 [egg-multipart] file mode enable
+2021-05-29 21:13:36,442 INFO 25409 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 21:13:36,601 INFO 25409 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 21:13:36,603 INFO 25409 [egg-security] use csrf middleware
+2021-05-29 21:13:36,604 INFO 25409 [egg-security] use methodnoallow middleware
+2021-05-29 21:13:36,604 INFO 25409 [egg-security] use noopen middleware
+2021-05-29 21:13:36,605 INFO 25409 [egg-security] use nosniff middleware
+2021-05-29 21:13:36,605 INFO 25409 [egg-security] use xssProtection middleware
+2021-05-29 21:13:36,605 INFO 25409 [egg-security] use xframe middleware
+2021-05-29 21:13:36,605 INFO 25409 [egg-security] use dta middleware
+2021-05-29 21:13:36,605 INFO 25409 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 21:13:36,615 INFO 25409 [egg:core] dump config after load, 7ms
+2021-05-29 21:13:36,623 INFO 25409 [egg-watcher:application] watcher start success
+2021-05-29 21:13:36,629 INFO 25409 [egg:core] dump config after ready, 5ms
+2021-05-29 23:04:50,715 INFO 26665 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:04:50,744 INFO 26665 [egg-multipart] file mode enable
+2021-05-29 23:04:50,744 INFO 26665 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:04:51,169 INFO 26665 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:04:51,171 INFO 26665 [egg-security] use csrf middleware
+2021-05-29 23:04:51,172 INFO 26665 [egg-security] use methodnoallow middleware
+2021-05-29 23:04:51,173 INFO 26665 [egg-security] use noopen middleware
+2021-05-29 23:04:51,174 INFO 26665 [egg-security] use nosniff middleware
+2021-05-29 23:04:51,175 INFO 26665 [egg-security] use xssProtection middleware
+2021-05-29 23:04:51,176 INFO 26665 [egg-security] use xframe middleware
+2021-05-29 23:04:51,176 INFO 26665 [egg-security] use dta middleware
+2021-05-29 23:04:51,176 INFO 26665 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:04:51,191 INFO 26665 [egg:core] dump config after load, 10ms
+2021-05-29 23:04:51,200 INFO 26665 [egg-watcher:application] watcher start success
+2021-05-29 23:04:51,209 INFO 26665 [egg:core] dump config after ready, 7ms
+2021-05-29 23:05:02,576 INFO 26692 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:05:02,603 INFO 26692 [egg-multipart] file mode enable
+2021-05-29 23:05:02,603 INFO 26692 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:05:03,019 INFO 26692 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:05:03,022 INFO 26692 [egg-security] use csrf middleware
+2021-05-29 23:05:03,023 INFO 26692 [egg-security] use methodnoallow middleware
+2021-05-29 23:05:03,023 INFO 26692 [egg-security] use noopen middleware
+2021-05-29 23:05:03,024 INFO 26692 [egg-security] use nosniff middleware
+2021-05-29 23:05:03,025 INFO 26692 [egg-security] use xssProtection middleware
+2021-05-29 23:05:03,026 INFO 26692 [egg-security] use xframe middleware
+2021-05-29 23:05:03,026 INFO 26692 [egg-security] use dta middleware
+2021-05-29 23:05:03,027 INFO 26692 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:05:03,040 INFO 26692 [egg:core] dump config after load, 9ms
+2021-05-29 23:05:03,048 INFO 26692 [egg-watcher:application] watcher start success
+2021-05-29 23:05:03,054 INFO 26692 [egg:core] dump config after ready, 5ms
+2021-05-29 23:05:03,923 INFO 26703 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:05:03,959 INFO 26703 [egg-multipart] file mode enable
+2021-05-29 23:05:03,959 INFO 26703 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:05:04,160 INFO 26703 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:05:04,162 INFO 26703 [egg-security] use csrf middleware
+2021-05-29 23:05:04,162 INFO 26703 [egg-security] use methodnoallow middleware
+2021-05-29 23:05:04,162 INFO 26703 [egg-security] use noopen middleware
+2021-05-29 23:05:04,163 INFO 26703 [egg-security] use nosniff middleware
+2021-05-29 23:05:04,164 INFO 26703 [egg-security] use xssProtection middleware
+2021-05-29 23:05:04,165 INFO 26703 [egg-security] use xframe middleware
+2021-05-29 23:05:04,165 INFO 26703 [egg-security] use dta middleware
+2021-05-29 23:05:04,165 INFO 26703 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:05:04,179 INFO 26703 [egg:core] dump config after load, 9ms
+2021-05-29 23:05:04,187 INFO 26703 [egg-watcher:application] watcher start success
+2021-05-29 23:05:04,194 INFO 26703 [egg:core] dump config after ready, 5ms
+2021-05-29 23:11:13,964 INFO 27211 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:11:14,007 INFO 27211 [egg-multipart] file mode enable
+2021-05-29 23:11:14,007 INFO 27211 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:11:14,349 INFO 27211 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:11:14,352 INFO 27211 [egg-security] use csrf middleware
+2021-05-29 23:11:14,353 INFO 27211 [egg-security] use methodnoallow middleware
+2021-05-29 23:11:14,354 INFO 27211 [egg-security] use noopen middleware
+2021-05-29 23:11:14,355 INFO 27211 [egg-security] use nosniff middleware
+2021-05-29 23:11:14,357 INFO 27211 [egg-security] use xssProtection middleware
+2021-05-29 23:11:14,358 INFO 27211 [egg-security] use xframe middleware
+2021-05-29 23:11:14,359 INFO 27211 [egg-security] use dta middleware
+2021-05-29 23:11:14,359 INFO 27211 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:11:14,369 INFO 27211 [egg:core] dump config after load, 5ms
+2021-05-29 23:11:14,385 INFO 27211 [egg-watcher:application] watcher start success
+2021-05-29 23:11:14,394 INFO 27211 [egg:core] dump config after ready, 7ms
+2021-05-29 23:11:26,529 INFO 27230 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:11:26,554 INFO 27230 [egg-multipart] file mode enable
+2021-05-29 23:11:26,554 INFO 27230 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:11:26,746 INFO 27230 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:11:26,749 INFO 27230 [egg-security] use csrf middleware
+2021-05-29 23:11:26,749 INFO 27230 [egg-security] use methodnoallow middleware
+2021-05-29 23:11:26,750 INFO 27230 [egg-security] use noopen middleware
+2021-05-29 23:11:26,750 INFO 27230 [egg-security] use nosniff middleware
+2021-05-29 23:11:26,750 INFO 27230 [egg-security] use xssProtection middleware
+2021-05-29 23:11:26,751 INFO 27230 [egg-security] use xframe middleware
+2021-05-29 23:11:26,751 INFO 27230 [egg-security] use dta middleware
+2021-05-29 23:11:26,751 INFO 27230 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:11:26,759 INFO 27230 [egg:core] dump config after load, 5ms
+2021-05-29 23:11:26,766 INFO 27230 [egg-watcher:application] watcher start success
+2021-05-29 23:11:26,773 INFO 27230 [egg:core] dump config after ready, 5ms
+2021-05-29 23:12:59,853 INFO 27382 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:12:59,879 INFO 27382 [egg-multipart] file mode enable
+2021-05-29 23:12:59,879 INFO 27382 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:13:00,088 INFO 27382 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:13:00,090 INFO 27382 [egg-security] use csrf middleware
+2021-05-29 23:13:00,092 INFO 27382 [egg-security] use methodnoallow middleware
+2021-05-29 23:13:00,093 INFO 27382 [egg-security] use noopen middleware
+2021-05-29 23:13:00,094 INFO 27382 [egg-security] use nosniff middleware
+2021-05-29 23:13:00,096 INFO 27382 [egg-security] use xssProtection middleware
+2021-05-29 23:13:00,097 INFO 27382 [egg-security] use xframe middleware
+2021-05-29 23:13:00,098 INFO 27382 [egg-security] use dta middleware
+2021-05-29 23:13:00,098 INFO 27382 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:13:00,112 INFO 27382 [egg:core] dump config after load, 11ms
+2021-05-29 23:13:00,121 INFO 27382 [egg-watcher:application] watcher start success
+2021-05-29 23:13:00,132 INFO 27382 [egg:core] dump config after ready, 7ms
+2021-05-29 23:13:05,670 INFO 27410 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:13:05,690 INFO 27410 [egg-multipart] file mode enable
+2021-05-29 23:13:05,690 INFO 27410 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:13:05,882 INFO 27410 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:13:05,885 INFO 27410 [egg-security] use csrf middleware
+2021-05-29 23:13:05,885 INFO 27410 [egg-security] use methodnoallow middleware
+2021-05-29 23:13:05,886 INFO 27410 [egg-security] use noopen middleware
+2021-05-29 23:13:05,886 INFO 27410 [egg-security] use nosniff middleware
+2021-05-29 23:13:05,886 INFO 27410 [egg-security] use xssProtection middleware
+2021-05-29 23:13:05,887 INFO 27410 [egg-security] use xframe middleware
+2021-05-29 23:13:05,887 INFO 27410 [egg-security] use dta middleware
+2021-05-29 23:13:05,887 INFO 27410 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:13:05,897 INFO 27410 [egg:core] dump config after load, 7ms
+2021-05-29 23:13:05,905 INFO 27410 [egg-watcher:application] watcher start success
+2021-05-29 23:13:05,912 INFO 27410 [egg:core] dump config after ready, 6ms
+2021-05-29 23:15:04,876 INFO 27569 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:15:04,941 INFO 27569 [egg-multipart] file mode enable
+2021-05-29 23:15:04,941 INFO 27569 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:15:05,570 INFO 27569 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:15:05,574 INFO 27569 [egg-security] use csrf middleware
+2021-05-29 23:15:05,575 INFO 27569 [egg-security] use methodnoallow middleware
+2021-05-29 23:15:05,576 INFO 27569 [egg-security] use noopen middleware
+2021-05-29 23:15:05,578 INFO 27569 [egg-security] use nosniff middleware
+2021-05-29 23:15:05,579 INFO 27569 [egg-security] use xssProtection middleware
+2021-05-29 23:15:05,580 INFO 27569 [egg-security] use xframe middleware
+2021-05-29 23:15:05,581 INFO 27569 [egg-security] use dta middleware
+2021-05-29 23:15:05,581 INFO 27569 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:15:05,607 INFO 27569 [egg:core] dump config after load, 18ms
+2021-05-29 23:15:05,624 INFO 27569 [egg-watcher:application] watcher start success
+2021-05-29 23:15:05,638 INFO 27569 [egg:core] dump config after ready, 11ms
+2021-05-29 23:15:18,083 INFO 27608 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:15:18,112 INFO 27608 [egg-multipart] file mode enable
+2021-05-29 23:15:18,112 INFO 27608 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:15:18,295 INFO 27608 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:15:18,297 INFO 27608 [egg-security] use csrf middleware
+2021-05-29 23:15:18,297 INFO 27608 [egg-security] use methodnoallow middleware
+2021-05-29 23:15:18,298 INFO 27608 [egg-security] use noopen middleware
+2021-05-29 23:15:18,298 INFO 27608 [egg-security] use nosniff middleware
+2021-05-29 23:15:18,299 INFO 27608 [egg-security] use xssProtection middleware
+2021-05-29 23:15:18,299 INFO 27608 [egg-security] use xframe middleware
+2021-05-29 23:15:18,299 INFO 27608 [egg-security] use dta middleware
+2021-05-29 23:15:18,299 INFO 27608 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:15:18,310 INFO 27608 [egg:core] dump config after load, 8ms
+2021-05-29 23:15:18,318 INFO 27608 [egg-watcher:application] watcher start success
+2021-05-29 23:15:18,324 INFO 27608 [egg:core] dump config after ready, 5ms
+2021-05-29 23:15:34,656 INFO 27635 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:15:34,694 INFO 27635 [egg-multipart] file mode enable
+2021-05-29 23:15:34,694 INFO 27635 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:15:35,037 INFO 27635 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:15:35,040 INFO 27635 [egg-security] use csrf middleware
+2021-05-29 23:15:35,042 INFO 27635 [egg-security] use methodnoallow middleware
+2021-05-29 23:15:35,043 INFO 27635 [egg-security] use noopen middleware
+2021-05-29 23:15:35,044 INFO 27635 [egg-security] use nosniff middleware
+2021-05-29 23:15:35,045 INFO 27635 [egg-security] use xssProtection middleware
+2021-05-29 23:15:35,046 INFO 27635 [egg-security] use xframe middleware
+2021-05-29 23:15:35,046 INFO 27635 [egg-security] use dta middleware
+2021-05-29 23:15:35,046 INFO 27635 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:15:35,060 INFO 27635 [egg:core] dump config after load, 8ms
+2021-05-29 23:15:35,072 INFO 27635 [egg-watcher:application] watcher start success
+2021-05-29 23:15:35,080 INFO 27635 [egg:core] dump config after ready, 5ms
+2021-05-29 23:15:44,687 INFO 27643 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:15:44,711 INFO 27643 [egg-multipart] file mode enable
+2021-05-29 23:15:44,711 INFO 27643 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:15:44,886 INFO 27643 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:15:44,888 INFO 27643 [egg-security] use csrf middleware
+2021-05-29 23:15:44,888 INFO 27643 [egg-security] use methodnoallow middleware
+2021-05-29 23:15:44,889 INFO 27643 [egg-security] use noopen middleware
+2021-05-29 23:15:44,889 INFO 27643 [egg-security] use nosniff middleware
+2021-05-29 23:15:44,889 INFO 27643 [egg-security] use xssProtection middleware
+2021-05-29 23:15:44,890 INFO 27643 [egg-security] use xframe middleware
+2021-05-29 23:15:44,890 INFO 27643 [egg-security] use dta middleware
+2021-05-29 23:15:44,890 INFO 27643 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:15:44,904 INFO 27643 [egg:core] dump config after load, 10ms
+2021-05-29 23:15:44,912 INFO 27643 [egg-watcher:application] watcher start success
+2021-05-29 23:15:44,919 INFO 27643 [egg:core] dump config after ready, 6ms
+2021-05-29 23:15:50,574 INFO 27651 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:15:50,595 INFO 27651 [egg-multipart] file mode enable
+2021-05-29 23:15:50,595 INFO 27651 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:15:50,759 INFO 27651 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:15:50,761 INFO 27651 [egg-security] use csrf middleware
+2021-05-29 23:15:50,761 INFO 27651 [egg-security] use methodnoallow middleware
+2021-05-29 23:15:50,762 INFO 27651 [egg-security] use noopen middleware
+2021-05-29 23:15:50,762 INFO 27651 [egg-security] use nosniff middleware
+2021-05-29 23:15:50,762 INFO 27651 [egg-security] use xssProtection middleware
+2021-05-29 23:15:50,763 INFO 27651 [egg-security] use xframe middleware
+2021-05-29 23:15:50,763 INFO 27651 [egg-security] use dta middleware
+2021-05-29 23:15:50,763 INFO 27651 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:15:50,773 INFO 27651 [egg:core] dump config after load, 7ms
+2021-05-29 23:15:50,780 INFO 27651 [egg-watcher:application] watcher start success
+2021-05-29 23:15:50,786 INFO 27651 [egg:core] dump config after ready, 5ms
+2021-05-29 23:16:03,327 INFO 27681 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:03,355 INFO 27681 [egg-multipart] file mode enable
+2021-05-29 23:16:03,355 INFO 27681 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:03,666 INFO 27681 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:03,670 INFO 27681 [egg-security] use csrf middleware
+2021-05-29 23:16:03,671 INFO 27681 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:03,672 INFO 27681 [egg-security] use noopen middleware
+2021-05-29 23:16:03,672 INFO 27681 [egg-security] use nosniff middleware
+2021-05-29 23:16:03,673 INFO 27681 [egg-security] use xssProtection middleware
+2021-05-29 23:16:03,674 INFO 27681 [egg-security] use xframe middleware
+2021-05-29 23:16:03,675 INFO 27681 [egg-security] use dta middleware
+2021-05-29 23:16:03,675 INFO 27681 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:03,690 INFO 27681 [egg:core] dump config after load, 9ms
+2021-05-29 23:16:03,704 INFO 27681 [egg-watcher:application] watcher start success
+2021-05-29 23:16:03,715 INFO 27681 [egg:core] dump config after ready, 9ms
+2021-05-29 23:16:09,615 INFO 27707 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:09,646 INFO 27707 [egg-multipart] file mode enable
+2021-05-29 23:16:09,646 INFO 27707 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:09,962 INFO 27707 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:09,964 INFO 27707 [egg-security] use csrf middleware
+2021-05-29 23:16:09,965 INFO 27707 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:09,965 INFO 27707 [egg-security] use noopen middleware
+2021-05-29 23:16:09,966 INFO 27707 [egg-security] use nosniff middleware
+2021-05-29 23:16:09,966 INFO 27707 [egg-security] use xssProtection middleware
+2021-05-29 23:16:09,967 INFO 27707 [egg-security] use xframe middleware
+2021-05-29 23:16:09,967 INFO 27707 [egg-security] use dta middleware
+2021-05-29 23:16:09,967 INFO 27707 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:09,978 INFO 27707 [egg:core] dump config after load, 7ms
+2021-05-29 23:16:09,987 INFO 27707 [egg-watcher:application] watcher start success
+2021-05-29 23:16:09,997 INFO 27707 [egg:core] dump config after ready, 6ms
+2021-05-29 23:16:49,131 INFO 27845 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:49,179 INFO 27845 [egg-multipart] file mode enable
+2021-05-29 23:16:49,179 INFO 27845 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:49,474 INFO 27845 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:49,477 INFO 27845 [egg-security] use csrf middleware
+2021-05-29 23:16:49,478 INFO 27845 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:49,478 INFO 27845 [egg-security] use noopen middleware
+2021-05-29 23:16:49,478 INFO 27845 [egg-security] use nosniff middleware
+2021-05-29 23:16:49,480 INFO 27845 [egg-security] use xssProtection middleware
+2021-05-29 23:16:49,480 INFO 27845 [egg-security] use xframe middleware
+2021-05-29 23:16:49,481 INFO 27845 [egg-security] use dta middleware
+2021-05-29 23:16:49,481 INFO 27845 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:49,493 INFO 27845 [egg:core] dump config after load, 8ms
+2021-05-29 23:16:49,504 INFO 27845 [egg-watcher:application] watcher start success
+2021-05-29 23:16:49,512 INFO 27845 [egg:core] dump config after ready, 6ms
+2021-05-29 23:16:53,249 INFO 27854 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:53,273 INFO 27854 [egg-multipart] file mode enable
+2021-05-29 23:16:53,273 INFO 27854 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:53,498 INFO 27854 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:53,501 INFO 27854 [egg-security] use csrf middleware
+2021-05-29 23:16:53,502 INFO 27854 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:53,503 INFO 27854 [egg-security] use noopen middleware
+2021-05-29 23:16:53,504 INFO 27854 [egg-security] use nosniff middleware
+2021-05-29 23:16:53,505 INFO 27854 [egg-security] use xssProtection middleware
+2021-05-29 23:16:53,506 INFO 27854 [egg-security] use xframe middleware
+2021-05-29 23:16:53,508 INFO 27854 [egg-security] use dta middleware
+2021-05-29 23:16:53,508 INFO 27854 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:53,519 INFO 27854 [egg:core] dump config after load, 6ms
+2021-05-29 23:16:53,532 INFO 27854 [egg-watcher:application] watcher start success
+2021-05-29 23:16:53,541 INFO 27854 [egg:core] dump config after ready, 6ms
+2021-05-29 23:16:54,939 INFO 27857 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:54,961 INFO 27857 [egg-multipart] file mode enable
+2021-05-29 23:16:54,961 INFO 27857 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:55,145 INFO 27857 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:55,147 INFO 27857 [egg-security] use csrf middleware
+2021-05-29 23:16:55,148 INFO 27857 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:55,148 INFO 27857 [egg-security] use noopen middleware
+2021-05-29 23:16:55,148 INFO 27857 [egg-security] use nosniff middleware
+2021-05-29 23:16:55,149 INFO 27857 [egg-security] use xssProtection middleware
+2021-05-29 23:16:55,149 INFO 27857 [egg-security] use xframe middleware
+2021-05-29 23:16:55,150 INFO 27857 [egg-security] use dta middleware
+2021-05-29 23:16:55,150 INFO 27857 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:55,162 INFO 27857 [egg:core] dump config after load, 7ms
+2021-05-29 23:16:55,170 INFO 27857 [egg-watcher:application] watcher start success
+2021-05-29 23:16:55,176 INFO 27857 [egg:core] dump config after ready, 4ms
+2021-05-29 23:16:58,503 INFO 27866 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:16:58,542 INFO 27866 [egg-multipart] file mode enable
+2021-05-29 23:16:58,543 INFO 27866 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:16:58,824 INFO 27866 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:16:58,826 INFO 27866 [egg-security] use csrf middleware
+2021-05-29 23:16:58,827 INFO 27866 [egg-security] use methodnoallow middleware
+2021-05-29 23:16:58,828 INFO 27866 [egg-security] use noopen middleware
+2021-05-29 23:16:58,830 INFO 27866 [egg-security] use nosniff middleware
+2021-05-29 23:16:58,830 INFO 27866 [egg-security] use xssProtection middleware
+2021-05-29 23:16:58,831 INFO 27866 [egg-security] use xframe middleware
+2021-05-29 23:16:58,831 INFO 27866 [egg-security] use dta middleware
+2021-05-29 23:16:58,831 INFO 27866 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:16:58,842 INFO 27866 [egg:core] dump config after load, 8ms
+2021-05-29 23:16:58,853 INFO 27866 [egg-watcher:application] watcher start success
+2021-05-29 23:16:58,865 INFO 27866 [egg:core] dump config after ready, 10ms
+2021-05-29 23:17:01,091 INFO 27868 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:01,120 INFO 27868 [egg-multipart] file mode enable
+2021-05-29 23:17:01,120 INFO 27868 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:01,342 INFO 27868 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:01,344 INFO 27868 [egg-security] use csrf middleware
+2021-05-29 23:17:01,345 INFO 27868 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:01,345 INFO 27868 [egg-security] use noopen middleware
+2021-05-29 23:17:01,346 INFO 27868 [egg-security] use nosniff middleware
+2021-05-29 23:17:01,346 INFO 27868 [egg-security] use xssProtection middleware
+2021-05-29 23:17:01,346 INFO 27868 [egg-security] use xframe middleware
+2021-05-29 23:17:01,346 INFO 27868 [egg-security] use dta middleware
+2021-05-29 23:17:01,347 INFO 27868 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:01,354 INFO 27868 [egg:core] dump config after load, 4ms
+2021-05-29 23:17:01,362 INFO 27868 [egg-watcher:application] watcher start success
+2021-05-29 23:17:01,371 INFO 27868 [egg:core] dump config after ready, 7ms
+2021-05-29 23:17:03,142 INFO 27879 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:03,171 INFO 27879 [egg-multipart] file mode enable
+2021-05-29 23:17:03,171 INFO 27879 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:03,349 INFO 27879 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:03,351 INFO 27879 [egg-security] use csrf middleware
+2021-05-29 23:17:03,351 INFO 27879 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:03,352 INFO 27879 [egg-security] use noopen middleware
+2021-05-29 23:17:03,352 INFO 27879 [egg-security] use nosniff middleware
+2021-05-29 23:17:03,353 INFO 27879 [egg-security] use xssProtection middleware
+2021-05-29 23:17:03,353 INFO 27879 [egg-security] use xframe middleware
+2021-05-29 23:17:03,353 INFO 27879 [egg-security] use dta middleware
+2021-05-29 23:17:03,353 INFO 27879 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:03,360 INFO 27879 [egg:core] dump config after load, 4ms
+2021-05-29 23:17:03,369 INFO 27879 [egg-watcher:application] watcher start success
+2021-05-29 23:17:03,376 INFO 27879 [egg:core] dump config after ready, 5ms
+2021-05-29 23:17:07,876 INFO 27887 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:07,909 INFO 27887 [egg-multipart] file mode enable
+2021-05-29 23:17:07,909 INFO 27887 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:08,225 INFO 27887 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:08,228 INFO 27887 [egg-security] use csrf middleware
+2021-05-29 23:17:08,228 INFO 27887 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:08,229 INFO 27887 [egg-security] use noopen middleware
+2021-05-29 23:17:08,229 INFO 27887 [egg-security] use nosniff middleware
+2021-05-29 23:17:08,229 INFO 27887 [egg-security] use xssProtection middleware
+2021-05-29 23:17:08,230 INFO 27887 [egg-security] use xframe middleware
+2021-05-29 23:17:08,230 INFO 27887 [egg-security] use dta middleware
+2021-05-29 23:17:08,230 INFO 27887 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:08,247 INFO 27887 [egg:core] dump config after load, 13ms
+2021-05-29 23:17:08,260 INFO 27887 [egg-watcher:application] watcher start success
+2021-05-29 23:17:08,270 INFO 27887 [egg:core] dump config after ready, 7ms
+2021-05-29 23:17:09,758 INFO 27889 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:09,780 INFO 27889 [egg-multipart] file mode enable
+2021-05-29 23:17:09,780 INFO 27889 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:10,021 INFO 27889 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:10,025 INFO 27889 [egg-security] use csrf middleware
+2021-05-29 23:17:10,026 INFO 27889 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:10,026 INFO 27889 [egg-security] use noopen middleware
+2021-05-29 23:17:10,028 INFO 27889 [egg-security] use nosniff middleware
+2021-05-29 23:17:10,029 INFO 27889 [egg-security] use xssProtection middleware
+2021-05-29 23:17:10,029 INFO 27889 [egg-security] use xframe middleware
+2021-05-29 23:17:10,030 INFO 27889 [egg-security] use dta middleware
+2021-05-29 23:17:10,030 INFO 27889 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:10,046 INFO 27889 [egg:core] dump config after load, 8ms
+2021-05-29 23:17:10,059 INFO 27889 [egg-watcher:application] watcher start success
+2021-05-29 23:17:10,070 INFO 27889 [egg:core] dump config after ready, 9ms
+2021-05-29 23:17:27,799 INFO 27908 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:27,823 INFO 27908 [egg-multipart] file mode enable
+2021-05-29 23:17:27,823 INFO 27908 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:28,045 INFO 27908 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:28,047 INFO 27908 [egg-security] use csrf middleware
+2021-05-29 23:17:28,048 INFO 27908 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:28,049 INFO 27908 [egg-security] use noopen middleware
+2021-05-29 23:17:28,050 INFO 27908 [egg-security] use nosniff middleware
+2021-05-29 23:17:28,052 INFO 27908 [egg-security] use xssProtection middleware
+2021-05-29 23:17:28,053 INFO 27908 [egg-security] use xframe middleware
+2021-05-29 23:17:28,054 INFO 27908 [egg-security] use dta middleware
+2021-05-29 23:17:28,054 INFO 27908 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:28,065 INFO 27908 [egg:core] dump config after load, 7ms
+2021-05-29 23:17:28,074 INFO 27908 [egg-watcher:application] watcher start success
+2021-05-29 23:17:28,081 INFO 27908 [egg:core] dump config after ready, 5ms
+2021-05-29 23:17:34,154 INFO 27916 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:34,176 INFO 27916 [egg-multipart] file mode enable
+2021-05-29 23:17:34,176 INFO 27916 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:34,339 INFO 27916 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:34,341 INFO 27916 [egg-security] use csrf middleware
+2021-05-29 23:17:34,341 INFO 27916 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:34,342 INFO 27916 [egg-security] use noopen middleware
+2021-05-29 23:17:34,342 INFO 27916 [egg-security] use nosniff middleware
+2021-05-29 23:17:34,343 INFO 27916 [egg-security] use xssProtection middleware
+2021-05-29 23:17:34,343 INFO 27916 [egg-security] use xframe middleware
+2021-05-29 23:17:34,343 INFO 27916 [egg-security] use dta middleware
+2021-05-29 23:17:34,343 INFO 27916 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:34,354 INFO 27916 [egg:core] dump config after load, 8ms
+2021-05-29 23:17:34,361 INFO 27916 [egg-watcher:application] watcher start success
+2021-05-29 23:17:34,367 INFO 27916 [egg:core] dump config after ready, 4ms
+2021-05-29 23:17:53,899 INFO 27947 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:17:53,927 INFO 27947 [egg-multipart] file mode enable
+2021-05-29 23:17:53,927 INFO 27947 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:17:54,095 INFO 27947 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:17:54,096 INFO 27947 [egg-security] use csrf middleware
+2021-05-29 23:17:54,097 INFO 27947 [egg-security] use methodnoallow middleware
+2021-05-29 23:17:54,097 INFO 27947 [egg-security] use noopen middleware
+2021-05-29 23:17:54,098 INFO 27947 [egg-security] use nosniff middleware
+2021-05-29 23:17:54,098 INFO 27947 [egg-security] use xssProtection middleware
+2021-05-29 23:17:54,099 INFO 27947 [egg-security] use xframe middleware
+2021-05-29 23:17:54,099 INFO 27947 [egg-security] use dta middleware
+2021-05-29 23:17:54,099 INFO 27947 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:17:54,107 INFO 27947 [egg:core] dump config after load, 5ms
+2021-05-29 23:17:54,119 INFO 27947 [egg-watcher:application] watcher start success
+2021-05-29 23:17:54,125 INFO 27947 [egg:core] dump config after ready, 5ms
+2021-05-29 23:19:29,949 INFO 28048 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:19:29,975 INFO 28048 [egg-multipart] file mode enable
+2021-05-29 23:19:29,975 INFO 28048 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:19:30,317 INFO 28048 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:19:30,319 INFO 28048 [egg-security] use csrf middleware
+2021-05-29 23:19:30,319 INFO 28048 [egg-security] use methodnoallow middleware
+2021-05-29 23:19:30,320 INFO 28048 [egg-security] use noopen middleware
+2021-05-29 23:19:30,321 INFO 28048 [egg-security] use nosniff middleware
+2021-05-29 23:19:30,322 INFO 28048 [egg-security] use xssProtection middleware
+2021-05-29 23:19:30,322 INFO 28048 [egg-security] use xframe middleware
+2021-05-29 23:19:30,323 INFO 28048 [egg-security] use dta middleware
+2021-05-29 23:19:30,323 INFO 28048 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:19:30,331 INFO 28048 [egg:core] dump config after load, 5ms
+2021-05-29 23:19:30,340 INFO 28048 [egg-watcher:application] watcher start success
+2021-05-29 23:19:30,348 INFO 28048 [egg:core] dump config after ready, 5ms
+2021-05-29 23:19:32,506 INFO 28057 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:19:32,526 INFO 28057 [egg-multipart] file mode enable
+2021-05-29 23:19:32,526 INFO 28057 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:19:32,700 INFO 28057 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:19:32,702 INFO 28057 [egg-security] use csrf middleware
+2021-05-29 23:19:32,702 INFO 28057 [egg-security] use methodnoallow middleware
+2021-05-29 23:19:32,703 INFO 28057 [egg-security] use noopen middleware
+2021-05-29 23:19:32,704 INFO 28057 [egg-security] use nosniff middleware
+2021-05-29 23:19:32,704 INFO 28057 [egg-security] use xssProtection middleware
+2021-05-29 23:19:32,704 INFO 28057 [egg-security] use xframe middleware
+2021-05-29 23:19:32,705 INFO 28057 [egg-security] use dta middleware
+2021-05-29 23:19:32,705 INFO 28057 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:19:32,712 INFO 28057 [egg:core] dump config after load, 4ms
+2021-05-29 23:19:32,719 INFO 28057 [egg-watcher:application] watcher start success
+2021-05-29 23:19:32,726 INFO 28057 [egg:core] dump config after ready, 5ms
+2021-05-29 23:19:56,216 INFO 28074 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:19:56,242 INFO 28074 [egg-multipart] file mode enable
+2021-05-29 23:19:56,242 INFO 28074 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:19:56,539 INFO 28074 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:19:56,541 INFO 28074 [egg-security] use csrf middleware
+2021-05-29 23:19:56,542 INFO 28074 [egg-security] use methodnoallow middleware
+2021-05-29 23:19:56,543 INFO 28074 [egg-security] use noopen middleware
+2021-05-29 23:19:56,544 INFO 28074 [egg-security] use nosniff middleware
+2021-05-29 23:19:56,545 INFO 28074 [egg-security] use xssProtection middleware
+2021-05-29 23:19:56,545 INFO 28074 [egg-security] use xframe middleware
+2021-05-29 23:19:56,546 INFO 28074 [egg-security] use dta middleware
+2021-05-29 23:19:56,546 INFO 28074 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:19:56,553 INFO 28074 [egg:core] dump config after load, 4ms
+2021-05-29 23:19:56,561 INFO 28074 [egg-watcher:application] watcher start success
+2021-05-29 23:19:56,568 INFO 28074 [egg:core] dump config after ready, 5ms
+2021-05-29 23:21:03,340 INFO 28186 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:21:03,373 INFO 28186 [egg-multipart] file mode enable
+2021-05-29 23:21:03,373 INFO 28186 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:21:03,760 INFO 28186 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:21:03,767 INFO 28186 [egg-security] use csrf middleware
+2021-05-29 23:21:03,769 INFO 28186 [egg-security] use methodnoallow middleware
+2021-05-29 23:21:03,770 INFO 28186 [egg-security] use noopen middleware
+2021-05-29 23:21:03,772 INFO 28186 [egg-security] use nosniff middleware
+2021-05-29 23:21:03,773 INFO 28186 [egg-security] use xssProtection middleware
+2021-05-29 23:21:03,774 INFO 28186 [egg-security] use xframe middleware
+2021-05-29 23:21:03,775 INFO 28186 [egg-security] use dta middleware
+2021-05-29 23:21:03,775 INFO 28186 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:21:03,783 INFO 28186 [egg:core] dump config after load, 4ms
+2021-05-29 23:21:03,794 INFO 28186 [egg-watcher:application] watcher start success
+2021-05-29 23:21:03,802 INFO 28186 [egg:core] dump config after ready, 6ms
+2021-05-29 23:23:29,324 INFO 28368 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:23:29,348 INFO 28368 [egg-multipart] file mode enable
+2021-05-29 23:23:29,348 INFO 28368 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:23:29,690 INFO 28368 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:23:29,693 INFO 28368 [egg-security] use csrf middleware
+2021-05-29 23:23:29,694 INFO 28368 [egg-security] use methodnoallow middleware
+2021-05-29 23:23:29,695 INFO 28368 [egg-security] use noopen middleware
+2021-05-29 23:23:29,696 INFO 28368 [egg-security] use nosniff middleware
+2021-05-29 23:23:29,698 INFO 28368 [egg-security] use xssProtection middleware
+2021-05-29 23:23:29,699 INFO 28368 [egg-security] use xframe middleware
+2021-05-29 23:23:29,700 INFO 28368 [egg-security] use dta middleware
+2021-05-29 23:23:29,700 INFO 28368 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:23:29,712 INFO 28368 [egg:core] dump config after load, 9ms
+2021-05-29 23:23:29,722 INFO 28368 [egg-watcher:application] watcher start success
+2021-05-29 23:23:29,729 INFO 28368 [egg:core] dump config after ready, 5ms
+2021-05-29 23:29:27,263 INFO 28884 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:29:27,290 INFO 28884 [egg-multipart] file mode enable
+2021-05-29 23:29:27,290 INFO 28884 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:29:27,647 INFO 28884 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:29:27,996 INFO 28884 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:29:27,999 INFO 28884 [egg-security] use methodnoallow middleware
+2021-05-29 23:29:28,000 INFO 28884 [egg-security] use noopen middleware
+2021-05-29 23:29:28,001 INFO 28884 [egg-security] use nosniff middleware
+2021-05-29 23:29:28,002 INFO 28884 [egg-security] use xssProtection middleware
+2021-05-29 23:29:28,003 INFO 28884 [egg-security] use xframe middleware
+2021-05-29 23:29:28,004 INFO 28884 [egg-security] use dta middleware
+2021-05-29 23:29:28,004 INFO 28884 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:29:28,013 INFO 28884 [egg:core] dump config after load, 5ms
+2021-05-29 23:29:28,016 INFO 28884 [egg-mongoose] starting...
+2021-05-29 23:29:28,042 INFO 28884 [egg:core] dump config after ready, 7ms
+2021-05-29 23:29:28,048 INFO 28884 [egg-watcher:application] watcher start success
+2021-05-29 23:30:59,245 INFO 28957 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:30:59,279 INFO 28957 [egg-multipart] file mode enable
+2021-05-29 23:30:59,279 INFO 28957 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:30:59,675 INFO 28957 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:31:00,064 INFO 28957 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:31:00,067 INFO 28957 [egg-security] use methodnoallow middleware
+2021-05-29 23:31:00,068 INFO 28957 [egg-security] use noopen middleware
+2021-05-29 23:31:00,069 INFO 28957 [egg-security] use nosniff middleware
+2021-05-29 23:31:00,071 INFO 28957 [egg-security] use xssProtection middleware
+2021-05-29 23:31:00,072 INFO 28957 [egg-security] use xframe middleware
+2021-05-29 23:31:00,073 INFO 28957 [egg-security] use dta middleware
+2021-05-29 23:31:00,073 INFO 28957 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:31:00,082 INFO 28957 [egg:core] dump config after load, 6ms
+2021-05-29 23:31:00,085 INFO 28957 [egg-mongoose] starting...
+2021-05-29 23:31:00,100 INFO 28957 [egg:core] dump config after ready, 6ms
+2021-05-29 23:31:00,104 INFO 28957 [egg-watcher:application] watcher start success
+2021-05-29 23:31:10,481 INFO 28995 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:31:10,505 INFO 28995 [egg-multipart] file mode enable
+2021-05-29 23:31:10,505 INFO 28995 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:31:10,818 INFO 28995 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:31:11,125 INFO 28995 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:31:11,127 INFO 28995 [egg-security] use methodnoallow middleware
+2021-05-29 23:31:11,128 INFO 28995 [egg-security] use noopen middleware
+2021-05-29 23:31:11,129 INFO 28995 [egg-security] use nosniff middleware
+2021-05-29 23:31:11,129 INFO 28995 [egg-security] use xssProtection middleware
+2021-05-29 23:31:11,130 INFO 28995 [egg-security] use xframe middleware
+2021-05-29 23:31:11,131 INFO 28995 [egg-security] use dta middleware
+2021-05-29 23:31:11,131 INFO 28995 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:31:11,138 INFO 28995 [egg:core] dump config after load, 5ms
+2021-05-29 23:31:11,141 INFO 28995 [egg-mongoose] starting...
+2021-05-29 23:31:11,157 INFO 28995 [egg:core] dump config after ready, 7ms
+2021-05-29 23:31:11,161 INFO 28995 [egg-watcher:application] watcher start success
+2021-05-29 23:31:12,340 INFO 29001 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:31:12,369 INFO 29001 [egg-multipart] file mode enable
+2021-05-29 23:31:12,369 INFO 29001 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:31:12,656 INFO 29001 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:31:12,857 INFO 29001 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:31:12,859 INFO 29001 [egg-security] use methodnoallow middleware
+2021-05-29 23:31:12,859 INFO 29001 [egg-security] use noopen middleware
+2021-05-29 23:31:12,860 INFO 29001 [egg-security] use nosniff middleware
+2021-05-29 23:31:12,860 INFO 29001 [egg-security] use xssProtection middleware
+2021-05-29 23:31:12,860 INFO 29001 [egg-security] use xframe middleware
+2021-05-29 23:31:12,861 INFO 29001 [egg-security] use dta middleware
+2021-05-29 23:31:12,861 INFO 29001 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:31:12,869 INFO 29001 [egg:core] dump config after load, 4ms
+2021-05-29 23:31:12,873 INFO 29001 [egg-mongoose] starting...
+2021-05-29 23:31:12,893 INFO 29001 [egg:core] dump config after ready, 7ms
+2021-05-29 23:31:12,896 INFO 29001 [egg-watcher:application] watcher start success
+2021-05-29 23:31:30,688 INFO 29034 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:31:30,710 INFO 29034 [egg-multipart] file mode enable
+2021-05-29 23:31:30,710 INFO 29034 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:31:31,044 INFO 29034 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:31:31,382 INFO 29034 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:31:31,385 INFO 29034 [egg-security] use methodnoallow middleware
+2021-05-29 23:31:31,386 INFO 29034 [egg-security] use noopen middleware
+2021-05-29 23:31:31,387 INFO 29034 [egg-security] use nosniff middleware
+2021-05-29 23:31:31,389 INFO 29034 [egg-security] use xssProtection middleware
+2021-05-29 23:31:31,390 INFO 29034 [egg-security] use xframe middleware
+2021-05-29 23:31:31,391 INFO 29034 [egg-security] use dta middleware
+2021-05-29 23:31:31,391 INFO 29034 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:31:31,399 INFO 29034 [egg:core] dump config after load, 6ms
+2021-05-29 23:31:31,402 INFO 29034 [egg-mongoose] starting...
+2021-05-29 23:31:31,423 INFO 29034 [egg:core] dump config after ready, 5ms
+2021-05-29 23:31:31,430 INFO 29034 [egg-watcher:application] watcher start success
+2021-05-29 23:33:54,740 INFO 29180 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:33:54,779 INFO 29180 [egg-multipart] file mode enable
+2021-05-29 23:33:54,779 INFO 29180 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:33:55,112 INFO 29180 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:33:55,412 INFO 29180 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:33:55,415 INFO 29180 [egg-security] use methodnoallow middleware
+2021-05-29 23:33:55,416 INFO 29180 [egg-security] use noopen middleware
+2021-05-29 23:33:55,417 INFO 29180 [egg-security] use nosniff middleware
+2021-05-29 23:33:55,418 INFO 29180 [egg-security] use xssProtection middleware
+2021-05-29 23:33:55,419 INFO 29180 [egg-security] use xframe middleware
+2021-05-29 23:33:55,419 INFO 29180 [egg-security] use dta middleware
+2021-05-29 23:33:55,419 INFO 29180 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:33:55,433 INFO 29180 [egg:core] dump config after load, 8ms
+2021-05-29 23:33:55,439 INFO 29180 [egg-mongoose] starting...
+2021-05-29 23:33:55,485 INFO 29180 [egg-watcher:application] watcher start success
+2021-05-29 23:34:01,258 INFO 29203 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:34:01,281 INFO 29203 [egg-multipart] file mode enable
+2021-05-29 23:34:01,281 INFO 29203 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:34:01,538 INFO 29203 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:34:01,716 INFO 29203 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:34:01,718 INFO 29203 [egg-security] use methodnoallow middleware
+2021-05-29 23:34:01,718 INFO 29203 [egg-security] use noopen middleware
+2021-05-29 23:34:01,719 INFO 29203 [egg-security] use nosniff middleware
+2021-05-29 23:34:01,719 INFO 29203 [egg-security] use xssProtection middleware
+2021-05-29 23:34:01,720 INFO 29203 [egg-security] use xframe middleware
+2021-05-29 23:34:01,720 INFO 29203 [egg-security] use dta middleware
+2021-05-29 23:34:01,720 INFO 29203 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:34:01,728 INFO 29203 [egg:core] dump config after load, 5ms
+2021-05-29 23:34:01,731 INFO 29203 [egg-mongoose] starting...
+2021-05-29 23:34:01,777 INFO 29203 [egg-watcher:application] watcher start success
+2021-05-29 23:34:05,133 ERROR 29180 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:05,135 ERROR 29180 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:05,141 ERROR 29180 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:05,156 INFO 29180 [egg:core] dump config after ready, 10ms
+2021-05-29 23:34:06,049 INFO 29213 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:34:06,074 INFO 29213 [egg-multipart] file mode enable
+2021-05-29 23:34:06,074 INFO 29213 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:34:06,395 INFO 29213 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:34:06,615 INFO 29213 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:34:06,617 INFO 29213 [egg-security] use methodnoallow middleware
+2021-05-29 23:34:06,617 INFO 29213 [egg-security] use noopen middleware
+2021-05-29 23:34:06,617 INFO 29213 [egg-security] use nosniff middleware
+2021-05-29 23:34:06,618 INFO 29213 [egg-security] use xssProtection middleware
+2021-05-29 23:34:06,618 INFO 29213 [egg-security] use xframe middleware
+2021-05-29 23:34:06,618 INFO 29213 [egg-security] use dta middleware
+2021-05-29 23:34:06,618 INFO 29213 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:34:06,628 INFO 29213 [egg:core] dump config after load, 6ms
+2021-05-29 23:34:06,631 INFO 29213 [egg-mongoose] starting...
+2021-05-29 23:34:06,669 INFO 29213 [egg-watcher:application] watcher start success
+2021-05-29 23:34:11,550 ERROR 29203 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:11,570 ERROR 29203 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:11,585 ERROR 29203 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:11,618 INFO 29203 [egg:core] dump config after ready, 7ms
+2021-05-29 23:34:16,408 ERROR 29213 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:16,411 ERROR 29213 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,416 ERROR 29213 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,427 INFO 29213 [egg:core] dump config after ready, 6ms
+2021-05-29 23:34:25,547 INFO 29248 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:34:25,570 INFO 29248 [egg-multipart] file mode enable
+2021-05-29 23:34:25,570 INFO 29248 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:34:25,909 INFO 29248 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:34:26,249 INFO 29248 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:34:26,251 INFO 29248 [egg-security] use methodnoallow middleware
+2021-05-29 23:34:26,252 INFO 29248 [egg-security] use noopen middleware
+2021-05-29 23:34:26,253 INFO 29248 [egg-security] use nosniff middleware
+2021-05-29 23:34:26,255 INFO 29248 [egg-security] use xssProtection middleware
+2021-05-29 23:34:26,256 INFO 29248 [egg-security] use xframe middleware
+2021-05-29 23:34:26,257 INFO 29248 [egg-security] use dta middleware
+2021-05-29 23:34:26,257 INFO 29248 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:34:26,265 INFO 29248 [egg:core] dump config after load, 5ms
+2021-05-29 23:34:26,267 INFO 29248 [egg-mongoose] starting...
+2021-05-29 23:34:26,313 INFO 29248 [egg-watcher:application] watcher start success
+2021-05-29 23:34:35,920 ERROR 29248 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:34:35,923 ERROR 29248 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:35,939 ERROR 29248 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:35,952 INFO 29248 [egg:core] dump config after ready, 7ms
+2021-05-29 23:35:43,676 INFO 29388 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:35:43,704 INFO 29388 [egg-multipart] file mode enable
+2021-05-29 23:35:43,704 INFO 29388 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:35:44,001 INFO 29388 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:35:44,188 INFO 29388 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:35:44,190 INFO 29388 [egg-security] use methodnoallow middleware
+2021-05-29 23:35:44,191 INFO 29388 [egg-security] use noopen middleware
+2021-05-29 23:35:44,191 INFO 29388 [egg-security] use nosniff middleware
+2021-05-29 23:35:44,193 INFO 29388 [egg-security] use xssProtection middleware
+2021-05-29 23:35:44,193 INFO 29388 [egg-security] use xframe middleware
+2021-05-29 23:35:44,193 INFO 29388 [egg-security] use dta middleware
+2021-05-29 23:35:44,194 INFO 29388 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:35:44,204 INFO 29388 [egg:core] dump config after load, 7ms
+2021-05-29 23:35:44,206 INFO 29388 [egg-mongoose] starting...
+2021-05-29 23:35:44,245 INFO 29388 [egg-watcher:application] watcher start success
+2021-05-29 23:35:54,013 ERROR 29388 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:35:54,015 ERROR 29388 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:54,020 ERROR 29388 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:54,033 INFO 29388 [egg:core] dump config after ready, 9ms
+2021-05-29 23:36:00,441 INFO 29423 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:36:00,467 INFO 29423 [egg-multipart] file mode enable
+2021-05-29 23:36:00,467 INFO 29423 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:36:00,735 INFO 29423 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:36:00,902 INFO 29423 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:36:00,903 INFO 29423 [egg-security] use methodnoallow middleware
+2021-05-29 23:36:00,904 INFO 29423 [egg-security] use noopen middleware
+2021-05-29 23:36:00,904 INFO 29423 [egg-security] use nosniff middleware
+2021-05-29 23:36:00,905 INFO 29423 [egg-security] use xssProtection middleware
+2021-05-29 23:36:00,905 INFO 29423 [egg-security] use xframe middleware
+2021-05-29 23:36:00,905 INFO 29423 [egg-security] use dta middleware
+2021-05-29 23:36:00,905 INFO 29423 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:36:00,913 INFO 29423 [egg:core] dump config after load, 4ms
+2021-05-29 23:36:00,917 INFO 29423 [egg-mongoose] starting...
+2021-05-29 23:36:00,952 INFO 29423 [egg-watcher:application] watcher start success
+2021-05-29 23:36:10,746 ERROR 29423 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:10,749 ERROR 29423 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:10,751 ERROR 29423 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:10,767 INFO 29423 [egg:core] dump config after ready, 10ms
+2021-05-29 23:36:11,750 INFO 29449 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:36:11,773 INFO 29449 [egg-multipart] file mode enable
+2021-05-29 23:36:11,773 INFO 29449 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:36:12,042 INFO 29449 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:36:12,297 INFO 29449 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:36:12,299 INFO 29449 [egg-security] use methodnoallow middleware
+2021-05-29 23:36:12,299 INFO 29449 [egg-security] use noopen middleware
+2021-05-29 23:36:12,300 INFO 29449 [egg-security] use nosniff middleware
+2021-05-29 23:36:12,301 INFO 29449 [egg-security] use xssProtection middleware
+2021-05-29 23:36:12,301 INFO 29449 [egg-security] use xframe middleware
+2021-05-29 23:36:12,301 INFO 29449 [egg-security] use dta middleware
+2021-05-29 23:36:12,301 INFO 29449 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:36:12,309 INFO 29449 [egg:core] dump config after load, 4ms
+2021-05-29 23:36:12,311 INFO 29449 [egg-mongoose] starting...
+2021-05-29 23:36:12,348 INFO 29449 [egg-watcher:application] watcher start success
+2021-05-29 23:36:22,060 ERROR 29449 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:22,063 ERROR 29449 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:22,064 ERROR 29449 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:22,076 INFO 29449 [egg:core] dump config after ready, 8ms
+2021-05-29 23:36:41,678 INFO 29512 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:36:41,697 INFO 29512 [egg-multipart] file mode enable
+2021-05-29 23:36:41,697 INFO 29512 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:36:41,927 INFO 29512 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:36:42,097 INFO 29512 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:36:42,099 INFO 29512 [egg-security] use methodnoallow middleware
+2021-05-29 23:36:42,099 INFO 29512 [egg-security] use noopen middleware
+2021-05-29 23:36:42,100 INFO 29512 [egg-security] use nosniff middleware
+2021-05-29 23:36:42,100 INFO 29512 [egg-security] use xssProtection middleware
+2021-05-29 23:36:42,100 INFO 29512 [egg-security] use xframe middleware
+2021-05-29 23:36:42,101 INFO 29512 [egg-security] use dta middleware
+2021-05-29 23:36:42,101 INFO 29512 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:36:42,107 INFO 29512 [egg:core] dump config after load, 4ms
+2021-05-29 23:36:42,110 INFO 29512 [egg-mongoose] starting...
+2021-05-29 23:36:42,143 INFO 29512 [egg-watcher:application] watcher start success
+2021-05-29 23:36:51,942 ERROR 29512 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:36:51,944 ERROR 29512 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:51,962 ERROR 29512 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:51,973 INFO 29512 [egg:core] dump config after ready, 6ms
+2021-05-29 23:37:05,989 INFO 29548 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:37:06,008 INFO 29548 [egg-multipart] file mode enable
+2021-05-29 23:37:06,008 INFO 29548 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:37:06,238 INFO 29548 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:37:06,430 INFO 29548 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:37:06,433 INFO 29548 [egg-security] use csrf middleware
+2021-05-29 23:37:06,434 INFO 29548 [egg-security] use methodnoallow middleware
+2021-05-29 23:37:06,434 INFO 29548 [egg-security] use noopen middleware
+2021-05-29 23:37:06,434 INFO 29548 [egg-security] use nosniff middleware
+2021-05-29 23:37:06,435 INFO 29548 [egg-security] use xssProtection middleware
+2021-05-29 23:37:06,435 INFO 29548 [egg-security] use xframe middleware
+2021-05-29 23:37:06,435 INFO 29548 [egg-security] use dta middleware
+2021-05-29 23:37:06,435 INFO 29548 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:37:06,442 INFO 29548 [egg:core] dump config after load, 4ms
+2021-05-29 23:37:06,445 INFO 29548 [egg-mongoose] starting...
+2021-05-29 23:37:06,451 INFO 29548 [egg-watcher:application] watcher start success
+2021-05-29 23:37:09,330 INFO 29564 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:37:09,350 INFO 29564 [egg-multipart] file mode enable
+2021-05-29 23:37:09,350 INFO 29564 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:37:09,576 INFO 29564 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:37:09,740 INFO 29564 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:37:09,741 INFO 29564 [egg-security] use csrf middleware
+2021-05-29 23:37:09,742 INFO 29564 [egg-security] use methodnoallow middleware
+2021-05-29 23:37:09,742 INFO 29564 [egg-security] use noopen middleware
+2021-05-29 23:37:09,742 INFO 29564 [egg-security] use nosniff middleware
+2021-05-29 23:37:09,743 INFO 29564 [egg-security] use xssProtection middleware
+2021-05-29 23:37:09,743 INFO 29564 [egg-security] use xframe middleware
+2021-05-29 23:37:09,743 INFO 29564 [egg-security] use dta middleware
+2021-05-29 23:37:09,743 INFO 29564 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:37:09,750 INFO 29564 [egg:core] dump config after load, 3ms
+2021-05-29 23:37:09,752 INFO 29564 [egg-mongoose] starting...
+2021-05-29 23:37:09,761 INFO 29564 [egg-watcher:application] watcher start success
+2021-05-29 23:37:16,257 ERROR 29548 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:37:16,261 ERROR 29548 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,265 ERROR 29548 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,284 INFO 29548 [egg:core] dump config after ready, 8ms
+2021-05-29 23:37:19,592 ERROR 29564 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-29 23:37:19,595 ERROR 29564 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,611 ERROR 29564 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,622 INFO 29564 [egg:core] dump config after ready, 6ms
+2021-05-29 23:38:51,345 INFO 29853 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:38:51,379 INFO 29853 [egg-multipart] file mode enable
+2021-05-29 23:38:51,379 INFO 29853 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:38:51,750 INFO 29853 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:38:52,113 INFO 29853 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:38:52,116 INFO 29853 [egg-security] use csrf middleware
+2021-05-29 23:38:52,117 INFO 29853 [egg-security] use methodnoallow middleware
+2021-05-29 23:38:52,118 INFO 29853 [egg-security] use noopen middleware
+2021-05-29 23:38:52,119 INFO 29853 [egg-security] use nosniff middleware
+2021-05-29 23:38:52,121 INFO 29853 [egg-security] use xssProtection middleware
+2021-05-29 23:38:52,122 INFO 29853 [egg-security] use xframe middleware
+2021-05-29 23:38:52,122 INFO 29853 [egg-security] use dta middleware
+2021-05-29 23:38:52,123 INFO 29853 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:38:52,134 INFO 29853 [egg:core] dump config after load, 7ms
+2021-05-29 23:38:52,138 INFO 29853 [egg-mongoose] starting...
+2021-05-29 23:38:52,157 INFO 29853 [egg-watcher:application] watcher start success
+2021-05-29 23:38:52,647 INFO 29853 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:38:52,648 INFO 29853 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:38:52,657 INFO 29853 [egg:core] dump config after ready, 7ms
+2021-05-29 23:39:29,370 INFO 29895 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:39:29,409 INFO 29895 [egg-multipart] file mode enable
+2021-05-29 23:39:29,409 INFO 29895 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:39:29,812 INFO 29895 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:39:30,160 INFO 29895 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:39:30,162 INFO 29895 [egg-security] use csrf middleware
+2021-05-29 23:39:30,163 INFO 29895 [egg-security] use methodnoallow middleware
+2021-05-29 23:39:30,164 INFO 29895 [egg-security] use noopen middleware
+2021-05-29 23:39:30,165 INFO 29895 [egg-security] use nosniff middleware
+2021-05-29 23:39:30,166 INFO 29895 [egg-security] use xssProtection middleware
+2021-05-29 23:39:30,167 INFO 29895 [egg-security] use xframe middleware
+2021-05-29 23:39:30,167 INFO 29895 [egg-security] use dta middleware
+2021-05-29 23:39:30,168 INFO 29895 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:39:30,176 INFO 29895 [egg:core] dump config after load, 6ms
+2021-05-29 23:39:30,179 INFO 29895 [egg-mongoose] starting...
+2021-05-29 23:39:30,187 INFO 29895 [egg-watcher:application] watcher start success
+2021-05-29 23:39:29,373 INFO 29896 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:39:29,409 INFO 29896 [egg-multipart] file mode enable
+2021-05-29 23:39:29,409 INFO 29896 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:39:29,812 INFO 29896 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:39:30,161 INFO 29896 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:39:30,164 INFO 29896 [egg-security] use csrf middleware
+2021-05-29 23:39:30,165 INFO 29896 [egg-security] use methodnoallow middleware
+2021-05-29 23:39:30,165 INFO 29896 [egg-security] use noopen middleware
+2021-05-29 23:39:30,166 INFO 29896 [egg-security] use nosniff middleware
+2021-05-29 23:39:30,166 INFO 29896 [egg-security] use xssProtection middleware
+2021-05-29 23:39:30,167 INFO 29896 [egg-security] use xframe middleware
+2021-05-29 23:39:30,167 INFO 29896 [egg-security] use dta middleware
+2021-05-29 23:39:30,168 INFO 29896 [egg-security] compose 7 middlewares into one security middleware
+2021-05-29 23:39:30,177 INFO 29896 [egg:core] dump config after load, 5ms
+2021-05-29 23:39:30,179 INFO 29896 [egg-mongoose] starting...
+2021-05-29 23:39:30,187 INFO 29896 [egg-watcher:application] watcher start success
+2021-05-29 23:39:30,686 INFO 29895 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:39:30,686 INFO 29895 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:39:30,695 INFO 29895 [egg:core] dump config after ready, 7ms
+2021-05-29 23:39:30,686 INFO 29896 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:39:30,687 INFO 29896 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:39:30,695 INFO 29896 [egg:core] dump config after ready, 7ms
+2021-05-29 23:39:32,642 INFO 29922 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:39:32,677 INFO 29922 [egg-multipart] file mode enable
+2021-05-29 23:39:32,677 INFO 29922 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:39:32,944 INFO 29922 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:39:33,203 INFO 29922 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:39:33,205 INFO 29922 [egg-security] use methodnoallow middleware
+2021-05-29 23:39:33,205 INFO 29922 [egg-security] use noopen middleware
+2021-05-29 23:39:33,206 INFO 29922 [egg-security] use nosniff middleware
+2021-05-29 23:39:33,206 INFO 29922 [egg-security] use xssProtection middleware
+2021-05-29 23:39:33,206 INFO 29922 [egg-security] use xframe middleware
+2021-05-29 23:39:33,207 INFO 29922 [egg-security] use dta middleware
+2021-05-29 23:39:33,207 INFO 29922 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:39:33,215 INFO 29922 [egg:core] dump config after load, 5ms
+2021-05-29 23:39:33,218 INFO 29922 [egg-mongoose] starting...
+2021-05-29 23:39:33,262 INFO 29922 [egg-watcher:application] watcher start success
+2021-05-29 23:39:34,357 INFO 29922 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:39:34,357 INFO 29922 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:39:34,363 INFO 29922 [egg:core] dump config after ready, 5ms
+2021-05-29 23:40:41,234 INFO 29977 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:40:41,253 INFO 29977 [egg-multipart] file mode enable
+2021-05-29 23:40:41,253 INFO 29977 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:40:41,522 INFO 29977 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:40:41,699 INFO 29977 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:40:41,701 INFO 29977 [egg-security] use methodnoallow middleware
+2021-05-29 23:40:41,701 INFO 29977 [egg-security] use noopen middleware
+2021-05-29 23:40:41,702 INFO 29977 [egg-security] use nosniff middleware
+2021-05-29 23:40:41,703 INFO 29977 [egg-security] use xssProtection middleware
+2021-05-29 23:40:41,703 INFO 29977 [egg-security] use xframe middleware
+2021-05-29 23:40:41,703 INFO 29977 [egg-security] use dta middleware
+2021-05-29 23:40:41,703 INFO 29977 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:40:41,712 INFO 29977 [egg:core] dump config after load, 5ms
+2021-05-29 23:40:41,714 INFO 29977 [egg-mongoose] starting...
+2021-05-29 23:40:41,762 INFO 29977 [egg-watcher:application] watcher start success
+2021-05-29 23:40:42,270 INFO 29977 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:40:42,271 INFO 29977 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:40:42,278 INFO 29977 [egg:core] dump config after ready, 5ms
+2021-05-29 23:42:22,183 INFO 30046 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:42:22,223 INFO 30046 [egg-multipart] file mode enable
+2021-05-29 23:42:22,223 INFO 30046 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:42:22,644 INFO 30046 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:42:22,999 INFO 30046 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:42:23,002 INFO 30046 [egg-security] use methodnoallow middleware
+2021-05-29 23:42:23,003 INFO 30046 [egg-security] use noopen middleware
+2021-05-29 23:42:23,004 INFO 30046 [egg-security] use nosniff middleware
+2021-05-29 23:42:23,005 INFO 30046 [egg-security] use xssProtection middleware
+2021-05-29 23:42:23,006 INFO 30046 [egg-security] use xframe middleware
+2021-05-29 23:42:23,007 INFO 30046 [egg-security] use dta middleware
+2021-05-29 23:42:23,007 INFO 30046 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:42:23,016 INFO 30046 [egg:core] dump config after load, 6ms
+2021-05-29 23:42:23,020 INFO 30046 [egg-mongoose] starting...
+2021-05-29 23:42:23,076 INFO 30046 [egg-watcher:application] watcher start success
+2021-05-29 23:42:23,545 INFO 30046 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:42:23,545 INFO 30046 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:42:23,551 INFO 30046 [egg:core] dump config after ready, 4ms
+2021-05-29 23:42:27,399 INFO 30063 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:42:27,429 INFO 30063 [egg-multipart] file mode enable
+2021-05-29 23:42:27,429 INFO 30063 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:42:27,707 INFO 30063 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:42:27,897 INFO 30063 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:42:27,900 INFO 30063 [egg-security] use methodnoallow middleware
+2021-05-29 23:42:27,901 INFO 30063 [egg-security] use noopen middleware
+2021-05-29 23:42:27,902 INFO 30063 [egg-security] use nosniff middleware
+2021-05-29 23:42:27,902 INFO 30063 [egg-security] use xssProtection middleware
+2021-05-29 23:42:27,903 INFO 30063 [egg-security] use xframe middleware
+2021-05-29 23:42:27,903 INFO 30063 [egg-security] use dta middleware
+2021-05-29 23:42:27,903 INFO 30063 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:42:27,912 INFO 30063 [egg:core] dump config after load, 5ms
+2021-05-29 23:42:27,915 INFO 30063 [egg-mongoose] starting...
+2021-05-29 23:42:27,960 INFO 30063 [egg-watcher:application] watcher start success
+2021-05-29 23:42:28,438 INFO 30063 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:42:28,438 INFO 30063 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:42:28,445 INFO 30063 [egg:core] dump config after ready, 5ms
+2021-05-29 23:42:55,450 INFO 30127 [egg:logger] init all loggers with options: {"dir":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"mihoyo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"frontLogger":{"maxFileSize":1,"file":"/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server"},"type":"application"}
+2021-05-29 23:42:55,470 INFO 30127 [egg-multipart] file mode enable
+2021-05-29 23:42:55,470 INFO 30127 [egg-multipart] will save temporary files to "/var/folders/vk/n18c7k_54d3flgpw4qjlt8080000gn/T/egg-multipart-tmp/mihoyo", cleanup job cron: "0 30 4 * * *"
+2021-05-29 23:42:55,715 INFO 30127 [egg-mongoose] connecting mongodb://172.25.1.8:27017/oa
+2021-05-29 23:42:55,878 INFO 30127 [egg-static] starting static serve /public/ -> /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/public
+2021-05-29 23:42:55,880 INFO 30127 [egg-security] use methodnoallow middleware
+2021-05-29 23:42:55,880 INFO 30127 [egg-security] use noopen middleware
+2021-05-29 23:42:55,880 INFO 30127 [egg-security] use nosniff middleware
+2021-05-29 23:42:55,882 INFO 30127 [egg-security] use xssProtection middleware
+2021-05-29 23:42:55,882 INFO 30127 [egg-security] use xframe middleware
+2021-05-29 23:42:55,882 INFO 30127 [egg-security] use dta middleware
+2021-05-29 23:42:55,882 INFO 30127 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 23:42:55,890 INFO 30127 [egg:core] dump config after load, 5ms
+2021-05-29 23:42:55,892 INFO 30127 [egg-mongoose] starting...
+2021-05-29 23:42:55,936 INFO 30127 [egg-watcher:application] watcher start success
+2021-05-29 23:42:56,438 INFO 30127 [egg-mongoose] mongodb://172.25.1.8:27017/oa connected successfully
+2021-05-29 23:42:56,438 INFO 30127 [egg-mongoose] instance[0] start successfully
+2021-05-29 23:42:56,449 INFO 30127 [egg:core] dump config after ready, 9ms

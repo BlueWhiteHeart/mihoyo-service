@@ -1,0 +1,756 @@
+2021-05-29 20:12:11,671 WARN 21599 [-/127.0.0.1/-/31ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 20:12:11,672 WARN 21599 [-/127.0.0.1/-/32ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 21599
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 21:03:35,751 ERROR 24831 [-/127.0.0.1/-/5ms GET /test] nodejs.ReferenceError: test is not defined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:12:17)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 24831
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 21:07:44,050 WARN 24952 [-/127.0.0.1/-/22ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 21:07:44,052 WARN 24952 [-/127.0.0.1/-/24ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 24952
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 21:07:53,477 WARN 24952 [-/127.0.0.1/-/1ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 21:07:53,477 WARN 24952 [-/127.0.0.1/-/1ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 24952
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 21:13:06,337 WARN 24952 [-/127.0.0.1/-/0ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 21:13:06,337 WARN 24952 [-/127.0.0.1/-/1ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 24952
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 21:13:41,410 WARN 25409 [-/127.0.0.1/-/28ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 21:13:41,412 WARN 25409 [-/127.0.0.1/-/29ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 25409
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:03:08,898 WARN 25409 [-/127.0.0.1/-/4ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 23:03:08,900 WARN 25409 [-/127.0.0.1/-/5ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 25409
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:08:10,822 WARN 26703 [-/127.0.0.1/-/20ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 23:08:10,824 WARN 26703 [-/127.0.0.1/-/21ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 26703
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:10:01,988 WARN 26703 [-/127.0.0.1/-/1ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 23:10:01,989 WARN 26703 [-/127.0.0.1/-/1ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 26703
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:10:36,114 WARN 26703 [-/127.0.0.1/-/1ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-05-29 23:10:36,114 WARN 26703 [-/127.0.0.1/-/1ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 26703
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:19:05,281 ERROR 27947 [-/127.0.0.1/-/7ms GET /test] nodejs.TypeError: Cannot read property 'succeedUtil' of undefined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:14:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 27947
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:19:36,142 ERROR 28057 [-/127.0.0.1/-/12ms GET /test] nodejs.TypeError: Cannot read property 'succeedUtil' of undefined
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+
+pid: 28057
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:29:28,017 WARN 28884 [egg-swagger-doc] can not found contract in app`s directory
+2021-05-29 23:29:28,031 ERROR 28884 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28884
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:00,085 WARN 28957 [egg-swagger-doc] can not found contract in app`s directory
+2021-05-29 23:31:00,093 ERROR 28957 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28957
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:11,141 WARN 28995 [egg-swagger-doc] can not found contract in app`s directory
+2021-05-29 23:31:11,148 ERROR 28995 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 28995
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:12,874 WARN 29001 [egg-swagger-doc] can not found contract in app`s directory
+2021-05-29 23:31:12,884 ERROR 29001 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 29001
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:31:31,404 WARN 29034 [egg-swagger-doc] can not found contract in app`s directory
+2021-05-29 23:31:31,414 ERROR 29034 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract'
+    at Object.readdirSync (fs.js:955:3)
+    at contractLoader (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/contract"
+name: "ENOENTError"
+pid: 29034
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:33:55,444 INFO 29180 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:33:55,476 INFO 29180 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:34:01,733 INFO 29203 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:34:01,764 INFO 29203 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:34:05,143 ERROR 29180 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29180
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:06,634 INFO 29213 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:34:06,660 INFO 29213 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:34:11,609 ERROR 29203 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29203
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:16,418 ERROR 29213 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29213
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:34:26,270 INFO 29248 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:34:26,302 INFO 29248 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:34:35,942 ERROR 29248 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29248
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:35:44,210 INFO 29388 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:35:44,237 INFO 29388 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:35:54,022 ERROR 29388 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29388
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:00,920 INFO 29423 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:36:00,946 INFO 29423 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:36:10,754 ERROR 29423 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29423
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:12,314 INFO 29449 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:36:12,340 INFO 29449 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:36:22,066 ERROR 29449 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29449
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:36:42,112 INFO 29512 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:36:42,135 INFO 29512 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:36:51,965 ERROR 29512 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29512
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:16,268 ERROR 29548 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29548
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:37:19,614 ERROR 29564 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 29564
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:39:10,946 ERROR 29853 [-/127.0.0.1/-/16ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-multipart/app/middleware/multipart.js:10:38)
+
+pid: 29853
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:39:33,221 INFO 29922 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:39:33,254 INFO 29922 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:40:12,249 ERROR 29922 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:21,456 ERROR 29922 [-/127.0.0.1/-/9ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:33,225 ERROR 29922 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:40:41,716 INFO 29977 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:40:41,747 INFO 29977 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:41:10,881 ERROR 29922 [-/127.0.0.1/-/16ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:7:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 29922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:42:23,022 INFO 30046 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:42:23,056 INFO 30046 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:42:27,918 INFO 30063 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:42:27,946 INFO 30063 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-29 23:42:30,312 ERROR 30063 [-/127.0.0.1/-/13ms GET /test] nodejs.TypeError: Cannot create property 'status' on string '响应成功'
+    at Object.succeedUtil (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/helper/response.js:8:16)
+    at HomeController.test (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:16:36)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa-static-cache/index.js:53:42
+    at dispatch (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+
+pid: 30063
+hostname: baixindeMacBook-Pro.local
+
+2021-05-29 23:42:55,895 INFO 30127 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-29 23:42:55,923 INFO 30127 [egg-swagger-doc] register router: get /swagger-ui.html
