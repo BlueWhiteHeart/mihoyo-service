@@ -754,3 +754,1007 @@ hostname: baixindeMacBook-Pro.local
 
 2021-05-29 23:42:55,895 INFO 30127 [egg-swagger-doc] register router: get /swagger-doc
 2021-05-29 23:42:55,923 INFO 30127 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 10:39:34,544 INFO 2922 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 10:39:34,583 INFO 2922 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 10:39:44,150 ERROR 2922 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 2922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 10:40:41,716 INFO 3303 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 10:40:41,748 INFO 3303 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:14:26,053 INFO 6140 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:14:26,085 INFO 6140 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:14:27,777 INFO 6151 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:14:27,803 INFO 6151 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:15:50,409 INFO 6229 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:15:50,443 INFO 6229 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:15,901 INFO 6251 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:15,936 INFO 6251 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:31,471 INFO 6296 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:31,505 INFO 6296 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:33,199 INFO 6297 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:33,227 INFO 6297 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:52,351 INFO 6344 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:52,390 INFO 6344 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:56,667 INFO 6359 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:56,697 INFO 6359 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:16:58,976 INFO 6362 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:16:59,010 INFO 6362 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:04,334 INFO 6375 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:04,365 INFO 6375 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:06,395 INFO 6376 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:06,428 INFO 6376 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:08,613 INFO 6377 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:08,641 INFO 6377 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:16,891 INFO 6392 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:16,920 INFO 6392 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:21,111 INFO 6400 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:21,144 INFO 6400 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:17:24,354 INFO 6401 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:17:24,382 INFO 6401 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:18:00,939 INFO 6426 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:18:00,964 INFO 6426 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:18:41,220 INFO 6462 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:18:41,248 INFO 6462 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:18:55,133 INFO 6479 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:18:55,160 INFO 6479 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:01,751 INFO 6545 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:01,789 INFO 6545 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:03,645 INFO 6554 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:03,677 INFO 6554 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:06,338 INFO 6561 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:06,366 INFO 6561 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:09,034 INFO 6562 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:09,061 INFO 6562 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:12,663 INFO 6564 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:12,690 INFO 6564 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:36,401 INFO 6565 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:36,438 INFO 6565 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:41,800 INFO 6570 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:41,828 INFO 6570 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:20:44,030 INFO 6571 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:20:44,058 INFO 6571 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:21:33,202 INFO 6581 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:21:33,234 INFO 6581 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:21:35,183 INFO 6590 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:21:35,208 INFO 6590 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:21:40,996 INFO 6598 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:21:41,029 INFO 6598 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:21:52,072 INFO 6621 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:21:52,098 INFO 6621 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:23:44,678 INFO 6656 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:23:44,720 INFO 6656 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:23:46,627 INFO 6670 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:23:46,659 INFO 6670 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:23:49,685 INFO 6675 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:23:49,710 INFO 6675 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:23:49,734 ERROR 6675 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6675
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:23:55,209 INFO 6687 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:23:55,235 INFO 6687 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:23:55,241 ERROR 6687 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6687
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:01,728 INFO 6704 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:01,751 INFO 6704 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:01,763 ERROR 6704 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6704
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:03,404 INFO 6705 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:03,432 INFO 6705 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:03,441 ERROR 6705 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6705
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:09,320 INFO 6713 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:09,348 INFO 6713 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:09,358 ERROR 6713 [-/127.0.0.1/-/1ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6713
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:14,644 INFO 6721 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:14,670 INFO 6721 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:14,679 ERROR 6721 [-/127.0.0.1/-/0ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6721
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:16,092 INFO 6729 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:16,125 INFO 6729 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:16,131 ERROR 6729 [-/127.0.0.1/-/0ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6729
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:24,399 INFO 6737 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:24,431 INFO 6737 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:24,443 ERROR 6737 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Forum is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:34)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6737
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:25,797 INFO 6738 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:25,824 INFO 6738 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:25,834 ERROR 6738 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Forum is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:34)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6738
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:29,273 INFO 6761 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:29,297 INFO 6761 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:42,429 INFO 6777 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:42,467 INFO 6777 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:44,558 INFO 6786 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:44,587 INFO 6786 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:55,530 INFO 6798 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:55,556 INFO 6798 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:55,570 ERROR 6798 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token ':'
+    created_at:: { // 错误级别
+               ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 6798
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:57,104 INFO 6807 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:24:57,128 INFO 6807 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:24:57,147 ERROR 6807 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token ':'
+    created_at:: {
+               ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 6807
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:25:01,617 INFO 6815 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:01,640 INFO 6815 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:03,701 INFO 6823 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:03,725 INFO 6823 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:10,532 INFO 6831 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:10,557 INFO 6831 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:12,431 INFO 6832 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:12,455 INFO 6832 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:13,066 INFO 6840 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:13,090 INFO 6840 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:14,326 INFO 6841 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:14,357 INFO 6841 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:15,913 INFO 6842 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:15,940 INFO 6842 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:17,624 INFO 6843 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:17,650 INFO 6843 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:22,020 INFO 6851 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:22,044 INFO 6851 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:26,652 INFO 6859 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:26,677 INFO 6859 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:28,480 INFO 6867 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:28,506 INFO 6867 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:31,965 INFO 6868 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:31,987 INFO 6868 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:34,043 INFO 6876 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:34,069 INFO 6876 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:34,889 INFO 6877 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:34,919 INFO 6877 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:43,823 INFO 6886 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:43,845 INFO 6886 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:46,918 INFO 6894 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:46,944 INFO 6894 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:56,715 INFO 6919 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:56,740 INFO 6919 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:25:59,859 INFO 6920 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:25:59,886 INFO 6920 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:09,115 INFO 6928 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:09,143 INFO 6928 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:29,281 INFO 6943 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:29,311 INFO 6943 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:36,895 INFO 6951 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:36,924 INFO 6951 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:42,701 INFO 6959 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:42,729 INFO 6959 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:48,305 INFO 6967 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:48,339 INFO 6967 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:26:53,301 INFO 6976 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:26:53,335 INFO 6976 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:02,027 INFO 6991 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:02,054 INFO 6991 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:09,157 INFO 6999 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:09,182 INFO 6999 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:12,249 INFO 7007 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:12,276 INFO 7007 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:15,575 INFO 7008 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:15,606 INFO 7008 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:32,143 INFO 7035 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:32,168 INFO 7035 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:34,023 INFO 7036 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:34,050 INFO 7036 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:41,381 INFO 7037 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:41,405 INFO 7037 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:41,422 ERROR 7037 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7037
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:27:49,867 INFO 7038 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:49,902 INFO 7038 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:27:51,899 INFO 7039 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:27:51,927 INFO 7039 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:01,943 INFO 7040 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:01,968 INFO 7040 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:04,114 INFO 7041 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:04,137 INFO 7041 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:04,152 ERROR 7041 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: post_num is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:61:9)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 7041
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:11,783 INFO 7042 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:11,816 INFO 7042 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:13,715 INFO 7043 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:13,753 INFO 7043 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:21,266 INFO 7045 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:21,293 INFO 7045 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:21,310 ERROR 7045 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7045
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:29,253 INFO 7046 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:29,279 INFO 7046 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:29,292 ERROR 7046 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7046
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:31,998 INFO 7047 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:32,024 INFO 7047 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:35,603 INFO 7049 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:35,632 INFO 7049 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:43,815 INFO 7050 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:43,841 INFO 7050 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:48,716 INFO 7051 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:48,742 INFO 7051 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:50,595 INFO 7059 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:50,620 INFO 7059 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:28:53,547 INFO 7061 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:28:53,574 INFO 7061 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:05,440 INFO 7076 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:05,481 INFO 7076 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:13,457 INFO 7084 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:13,482 INFO 7084 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:18,915 INFO 7092 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:18,943 INFO 7092 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:24,830 INFO 7100 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:24,862 INFO 7100 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:28,438 INFO 7116 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:28,465 INFO 7116 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:30,270 INFO 7117 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:30,298 INFO 7117 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:40,910 INFO 7132 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:40,946 INFO 7132 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:46,835 INFO 7140 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:46,864 INFO 7140 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:49,415 INFO 7144 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:49,445 INFO 7144 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:54,770 INFO 7156 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:54,802 INFO 7156 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:29:56,494 INFO 7157 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:29:56,520 INFO 7157 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:01,888 INFO 7166 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:01,915 INFO 7166 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:04,087 INFO 7167 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:04,114 INFO 7167 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:08,128 INFO 7175 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:08,156 INFO 7175 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:13,611 INFO 7183 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:13,638 INFO 7183 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:24,113 INFO 7198 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:24,138 INFO 7198 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:24,152 ERROR 7198 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7198
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:30:26,107 INFO 7199 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:26,131 INFO 7199 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:28,893 INFO 7209 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:28,917 INFO 7209 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:31,331 INFO 7210 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:31,356 INFO 7210 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:30:37,754 INFO 7218 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:30:37,779 INFO 7218 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:32:10,905 INFO 7274 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:32:10,937 INFO 7274 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:32:12,909 INFO 7276 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:32:12,938 INFO 7276 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:32:26,725 INFO 7278 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:32:26,762 INFO 7278 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:32:37,850 INFO 7282 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:32:37,892 INFO 7282 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:38:35,458 INFO 7633 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:38:35,483 INFO 7633 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:38:37,283 INFO 7635 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:38:37,312 INFO 7635 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:38:39,377 INFO 7649 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:38:39,401 INFO 7649 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:38:49,014 INFO 7666 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:38:49,040 INFO 7666 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:53:47,149 INFO 8101 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:53:47,189 INFO 8101 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:53:53,069 INFO 8114 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:53:53,102 INFO 8114 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:00,585 INFO 8131 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:00,619 INFO 8131 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:08,256 INFO 8145 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:08,292 INFO 8145 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:12,557 INFO 8156 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:12,583 INFO 8156 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:16,200 INFO 8168 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:16,227 INFO 8168 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:29,146 INFO 8183 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:29,173 INFO 8183 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:33,714 INFO 8192 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:33,744 INFO 8192 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:35,597 INFO 8201 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:35,623 INFO 8201 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:41,254 INFO 8209 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:41,281 INFO 8209 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:49,048 INFO 8218 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:49,074 INFO 8218 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:56,022 INFO 8251 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:56,050 INFO 8251 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:54:58,335 INFO 8253 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:54:58,361 INFO 8253 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:02,105 INFO 8262 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:02,131 INFO 8262 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:05,251 INFO 8264 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:05,275 INFO 8264 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:07,690 INFO 8273 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:07,716 INFO 8273 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:11,090 INFO 8282 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:11,116 INFO 8282 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:13,945 INFO 8284 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:13,969 INFO 8284 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:15,865 INFO 8286 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:15,894 INFO 8286 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:18,416 INFO 8295 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:18,442 INFO 8295 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:25,077 INFO 8306 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:25,104 INFO 8306 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:29,743 INFO 8315 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:29,768 INFO 8315 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:32,937 INFO 8325 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:32,966 INFO 8325 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:33,880 INFO 8326 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:33,907 INFO 8326 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:36,410 INFO 8328 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:36,434 INFO 8328 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:39,259 INFO 8337 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:39,285 INFO 8337 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:43,101 INFO 8348 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:43,126 INFO 8348 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:45,553 INFO 8350 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:45,580 INFO 8350 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:48,461 INFO 8359 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:48,489 INFO 8359 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:54,486 INFO 8368 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:54,511 INFO 8368 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:55:57,575 INFO 8382 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:55:57,600 INFO 8382 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:00,241 INFO 8384 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:00,268 INFO 8384 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:09,340 INFO 8404 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:09,369 INFO 8404 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:11,535 INFO 8406 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:11,562 INFO 8406 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:20,329 INFO 8421 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:20,356 INFO 8421 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:28,390 INFO 8430 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:28,414 INFO 8430 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:31,341 INFO 8439 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:31,366 INFO 8439 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:35,158 INFO 8448 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:35,184 INFO 8448 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:37,518 INFO 8450 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:37,544 INFO 8450 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:40,923 INFO 8459 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:40,949 INFO 8459 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:43,897 INFO 8473 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:43,926 INFO 8473 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:50,238 INFO 8485 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:50,265 INFO 8485 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:55,199 INFO 8494 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:55,228 INFO 8494 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:56:58,277 INFO 8503 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:56:58,302 INFO 8503 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:57:00,089 INFO 8505 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:57:00,115 INFO 8505 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:58:17,394 INFO 8560 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:58:17,431 INFO 8560 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:58:27,388 INFO 8585 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:58:27,432 INFO 8585 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:58:30,599 INFO 8595 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:58:30,629 INFO 8595 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:59:07,541 INFO 8617 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:59:07,580 INFO 8617 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:59:26,018 INFO 8627 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:59:26,044 INFO 8627 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:59:30,964 INFO 8639 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:59:30,990 INFO 8639 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:59:34,613 INFO 8651 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:59:34,640 INFO 8651 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 16:59:52,785 INFO 8690 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 16:59:52,810 INFO 8690 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:00,430 INFO 8700 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:00,455 INFO 8700 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:05,709 INFO 8709 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:05,734 INFO 8709 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:11,137 INFO 8718 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:11,162 INFO 8718 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:25,635 INFO 8734 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:25,662 INFO 8734 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:35,915 INFO 8743 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:35,943 INFO 8743 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:44,753 INFO 8752 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:44,779 INFO 8752 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:49,450 INFO 8761 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:49,478 INFO 8761 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:00:55,403 INFO 8770 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:00:55,429 INFO 8770 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:15,660 INFO 8789 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:15,687 INFO 8789 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:22,143 INFO 8798 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:22,168 INFO 8798 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:28,050 INFO 8807 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:28,078 INFO 8807 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:33,267 INFO 8816 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:33,297 INFO 8816 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:37,125 INFO 8825 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:37,150 INFO 8825 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:41,564 INFO 8834 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:41,589 INFO 8834 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:43,853 INFO 8836 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:43,876 INFO 8836 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:49,741 INFO 8845 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:49,769 INFO 8845 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:01:53,427 INFO 8855 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:01:53,452 INFO 8855 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:04,054 INFO 8872 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:04,079 INFO 8872 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:08,071 INFO 8882 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:08,100 INFO 8882 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:12,831 INFO 8891 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:12,856 INFO 8891 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:14,803 INFO 8893 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:14,829 INFO 8893 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:16,214 INFO 8901 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:16,239 INFO 8901 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:25,401 INFO 8910 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:25,425 INFO 8910 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:29,896 INFO 8919 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:29,921 INFO 8919 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:02:31,679 INFO 8929 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:02:31,704 INFO 8929 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:03:19,420 INFO 8966 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:03:19,443 INFO 8966 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:08:52,379 INFO 9027 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:08:52,413 INFO 9027 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:14,697 INFO 9048 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:14,733 INFO 9048 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:21,310 INFO 9067 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:21,345 INFO 9067 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:32,892 INFO 9076 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:32,929 INFO 9076 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:37,517 INFO 9085 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:37,559 INFO 9085 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:41,824 INFO 9094 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:41,851 INFO 9094 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:44,275 INFO 9096 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:44,301 INFO 9096 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:50,039 INFO 9105 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:50,063 INFO 9105 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:09:53,194 INFO 9114 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:09:53,221 INFO 9114 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:10:30,260 INFO 9130 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:10:30,296 INFO 9130 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:10:42,745 INFO 9168 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:10:42,783 INFO 9168 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:10:49,432 INFO 9177 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:10:49,463 INFO 9177 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:10:58,426 INFO 9186 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:10:58,455 INFO 9186 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:05,672 INFO 9202 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:05,699 INFO 9202 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:10,022 INFO 9212 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:10,048 INFO 9212 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:14,209 INFO 9214 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:14,232 INFO 9214 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:17,610 INFO 9223 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:17,635 INFO 9223 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:26,181 INFO 9240 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:26,205 INFO 9240 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:11:56,460 INFO 9255 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:11:56,486 INFO 9255 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:06,223 INFO 9264 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:06,257 INFO 9264 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:15,159 INFO 9280 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:15,183 INFO 9280 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:28,195 INFO 9296 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:28,219 INFO 9296 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:32,386 INFO 9305 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:32,413 INFO 9305 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:40,391 INFO 9315 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:40,415 INFO 9315 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:43,730 INFO 9317 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:43,753 INFO 9317 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:47,130 INFO 9326 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:47,156 INFO 9326 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:55,223 INFO 9342 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:55,248 INFO 9342 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:12:57,077 INFO 9345 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:12:57,103 INFO 9345 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:01,424 INFO 9353 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:01,449 INFO 9353 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:16,902 INFO 9369 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:16,937 INFO 9369 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:23,302 INFO 9378 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:23,333 INFO 9378 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:25,380 INFO 9388 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:25,405 INFO 9388 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:28,659 INFO 9389 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:28,685 INFO 9389 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:37,886 INFO 9421 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:37,910 INFO 9421 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:42,292 INFO 9430 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:42,318 INFO 9430 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:45,635 INFO 9436 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:45,659 INFO 9436 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:49,639 INFO 9441 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:49,666 INFO 9441 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:13:53,290 INFO 9450 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:13:53,315 INFO 9450 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:28,005 INFO 9467 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:28,031 INFO 9467 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:42,895 INFO 9488 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:42,922 INFO 9488 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:47,174 INFO 9501 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:47,198 INFO 9501 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:54,299 INFO 9514 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:54,323 INFO 9514 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:57,641 INFO 9523 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:57,666 INFO 9523 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:14:59,289 INFO 9531 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:14:59,315 INFO 9531 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:15:15,155 INFO 9546 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:15:15,181 INFO 9546 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:15:21,151 INFO 9558 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:15:21,176 INFO 9558 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:15:24,015 INFO 9564 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:15:24,042 INFO 9564 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:15:37,694 INFO 9577 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:15:37,718 INFO 9577 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:15:48,311 INFO 9597 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:15:48,335 INFO 9597 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:00,788 INFO 9614 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:00,812 INFO 9614 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:09,747 INFO 9630 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:09,772 INFO 9630 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:12,148 INFO 9631 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:12,172 INFO 9631 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:24,903 INFO 9647 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:24,928 INFO 9647 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:31,911 INFO 9663 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:31,940 INFO 9663 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:34,089 INFO 9665 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:34,114 INFO 9665 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:39,383 INFO 9690 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:39,413 INFO 9690 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:57,290 INFO 9714 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:57,314 INFO 9714 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:16:59,732 INFO 9722 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:16:59,757 INFO 9722 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:04,717 INFO 9731 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:04,742 INFO 9731 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:08,492 INFO 9740 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:08,517 INFO 9740 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:18,923 INFO 9759 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:18,950 INFO 9759 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:23,165 INFO 9768 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:23,193 INFO 9768 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:25,475 INFO 9777 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:25,500 INFO 9777 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:30,776 INFO 9792 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:30,803 INFO 9792 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:17:38,048 INFO 9800 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:17:38,074 INFO 9800 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:26:25,186 ERROR 9800 [-/127.0.0.1/-/5ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:28,131 ERROR 9800 [-/127.0.0.1/-/1ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:29,921 ERROR 9800 [-/127.0.0.1/-/1ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:32,442 ERROR 9800 [-/127.0.0.1/-/2ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:36,663 ERROR 9800 [-/127.0.0.1/-/0ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:27:09,761 INFO 10055 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:27:09,793 INFO 10055 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:27:13,643 INFO 10070 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:27:13,670 INFO 10070 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:27:20,073 INFO 10088 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:27:20,097 INFO 10088 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:27:22,908 ERROR 10088 [-/127.0.0.1/-/13ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 10088
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:27:36,675 INFO 10102 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:27:36,719 INFO 10102 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-30 17:27:49,311 INFO 10120 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-30 17:27:49,344 INFO 10120 [egg-swagger-doc] register router: get /swagger-ui.html

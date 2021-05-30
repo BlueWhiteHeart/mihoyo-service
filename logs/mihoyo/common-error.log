@@ -1209,3 +1209,921 @@ hostname: baixindeMacBook-Pro.local
 pid: 30063
 hostname: baixindeMacBook-Pro.local
 
+2021-05-29 23:45:07,036 ERROR 30127 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-30 10:39:44,136 ERROR 2922 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-05-30 10:39:44,137 ERROR 2922 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 2922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 10:39:44,140 ERROR 2922 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 2922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 10:39:44,149 ERROR 2922 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 2922
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:16:52,887 ERROR 6344 [Job#162236261288423326670351481] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:15:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:16:57,893 ERROR 6359 [Job#162236261789023331735061872] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. ReferenceError: conso is not defined
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:13:9)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+2021-05-30 16:17:02,900 ERROR 6362 [Job#162236262289423336769581333] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:16:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:07,899 ERROR 6376 [Job#162236262789523341781724554] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:16:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:12,904 ERROR 6377 [Job#162236263289923346825521215] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:16:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:17,906 ERROR 6392 [Job#162236263790223351852916446] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:23,030 ERROR 6400 [Job#162236264290323356858451047] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 125ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:27,913 ERROR 6401 [Job#162236264790423361873072688] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:32,912 ERROR 6401 [Job#162236265290823366913758459] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 2ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:37,918 ERROR 6401 [Job#1622362657914233719727369010] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:42,918 ERROR 6401 [Job#1622362662917233769993433911] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:47,921 ERROR 6401 [Job#16223626679182338110091053312] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:52,924 ERROR 6401 [Job#16223626729212338610376676813] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:17:57,926 ERROR 6401 [Job#16223626779242339110677317314] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:02,939 ERROR 6426 [Job#16223626829302339611261299215] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 2ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:07,934 ERROR 6426 [Job#16223626879312340111355941816] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:12,932 ERROR 6426 [Job#16223626929312340611391630717] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:17,936 ERROR 6426 [Job#16223626979342341111647036018] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:22,935 ERROR 6426 [Job#16223627029342341611685149719] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:27,935 ERROR 6426 [Job#16223627079342342111692367120] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:32,938 ERROR 6426 [Job#16223627129362342611804335521] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 0ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:37,942 ERROR 6426 [Job#16223627179412343112302636622] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/mihoyo-server/common-error.json.log'
+}
+2021-05-30 16:18:42,945 ERROR 6462 [Job#16223627229412343612384332223] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+}
+2021-05-30 16:18:47,946 ERROR 6462 [Job#16223627279432344112580595324] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+}
+2021-05-30 16:18:52,951 ERROR 6462 [Job#16223627329492344613172506625] /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js execute failed, used 1ms. Error: ENOENT: no such file or directory, open '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+    at Object.openSync (fs.js:462:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.task (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/schedule/log_send.js:17:23)
+    at Messenger.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-schedule/app.js:47:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/logs/common-error.json.log'
+}
+2021-05-30 16:23:49,716 ERROR 6675 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6675
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:23:55,240 ERROR 6687 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6687
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:01,756 ERROR 6704 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6704
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:03,441 ERROR 6705 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `error` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6705
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:09,353 ERROR 6713 [-/127.0.0.1/-/1ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6713
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:14,675 ERROR 6721 [-/127.0.0.1/-/0ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6721
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:16,131 ERROR 6729 [-/127.0.0.1/-/0ms GET /] nodejs.Error: The 2nd parameter to `mongoose.model()` should be a schema or a POJO
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:502:11)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6729
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:24,437 ERROR 6737 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Forum is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:34)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6737
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:25,833 ERROR 6738 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Forum is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:59:34)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 6738
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:55,563 ERROR 6798 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token ':'
+    created_at:: { // 错误级别
+               ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 6798
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:24:57,136 ERROR 6807 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token ':'
+    created_at:: {
+               ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 6807
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:27:41,414 ERROR 7037 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7037
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:04,145 ERROR 7041 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: post_num is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js:61:9)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 7041
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:21,301 ERROR 7045 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7045
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:28:29,285 ERROR 7046 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7046
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 16:30:24,143 ERROR 7198 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/forum.js, error: Unexpected token '}'
+  }, {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 7198
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:02:34,236 ERROR 8929 nodejs.ValidationError: forum validation failed: icon: Cast to Boolean failed for value "https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png" (type string) at path "icon"
+    at model.Document.invalidate (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/document.js:2729:32)
+    at model.$set (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/document.js:1318:12)
+    at model.$set (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/document.js:1022:16)
+    at model.Document (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/document.js:147:12)
+    at model.Model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:105:12)
+    at new model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:4706:15)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:3094:22
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:3130:7
+    at Array.forEach (<anonymous>)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:3129:15
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/model.js:3064:23)
+    at HomeController.createTab (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/controller/home.js:48:34)
+errors: {"icon":{"stringValue":"\"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png\"","valueType":"string","kind":"Boolean","value":"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png","path":"icon","reason":{"stringValue":"\"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png\"","valueType":"string","kind":"boolean","value":"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png","name":"CastError","message":"Cast to boolean failed for value \"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png\" (type string) at path \"undefined\""},"name":"CastError","message":"Cast to Boolean failed for value \"https://upload-bbs.mihoyo.com/upload/2019/07/03/cd65fb0653d764fa10ccf64e1b9fdda8.png\" (type string) at path \"icon\""}}
+_message: "forum validation failed"
+pid: 8929
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:25,180 ERROR 9800 [-/127.0.0.1/-/5ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:28,131 ERROR 9800 [-/127.0.0.1/-/1ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:29,921 ERROR 9800 [-/127.0.0.1/-/1ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:32,442 ERROR 9800 [-/127.0.0.1/-/2ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:26:36,663 ERROR 9800 [-/127.0.0.1/-/0ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 9800
+hostname: baixindeMacBook-Pro.local
+
+2021-05-30 17:27:22,903 ERROR 10088 [-/127.0.0.1/-/13ms GET /getTab] nodejs.TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    --> starting at object with constructor 'Mongos'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'Mongos'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 10088
+hostname: baixindeMacBook-Pro.local
+
