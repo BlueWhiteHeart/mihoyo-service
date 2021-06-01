@@ -2127,3 +2127,298 @@ hostname: baixindeMacBook-Pro.local
 pid: 10088
 hostname: baixindeMacBook-Pro.local
 
+2021-06-01 21:06:27,226 ERROR 1205 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected
+2021-06-01 21:06:27,227 ERROR 1205 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 1205
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 21:06:27,228 ERROR 1205 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 1205
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 21:06:27,252 ERROR 1205 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [172.25.1.8:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at connectionFailureError (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]
+    at Pool.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:315:20)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:562:14
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/pool.js:995:11
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:482:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "MongoNetworkError"
+pid: 1205
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 21:52:44,383 ERROR 3723 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `forum` model once compiled.
+    at Mongoose.model (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/index.js:549:13)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js:96:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 3723
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 21:52:51,653 ERROR 3748 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: Product is not defined
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js:96:36)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 3748
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:01:09,736 ERROR 4299 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token ':'
+    totalSum: { // 项目总金额（含税）
+            ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4299
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:01:11,577 ERROR 4307 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token ':'
+    totalSum: { // 项目总金额（含税）
+            ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4307
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:01:19,768 ERROR 4317 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Invalid schema configuration: `项目图标` is not a valid type at path `icon`. See http://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.interpretAsType (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/schema.js:1009:11)
+    at Schema.path (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/schema.js:680:27)
+    at Schema.add (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/schema.js:532:14)
+    at new Schema (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/mongoose/lib/schema.js:129:10)
+    at module.exports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js:6:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+pid: 4317
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:01:27,236 ERROR 4332 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token '}'
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4332
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:01:30,553 ERROR 4333 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token '}'
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4333
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:04:25,190 ERROR 4486 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token ':'
+    receiveSum: { // 累计收款金额（含税）
+              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4486
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:05:27,956 ERROR 4603 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/app/model/product.js, error: Unexpected token '}'
+    },
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/bluewhiteheart/Desktop/studyExample/mihoyo-server/node_modules/egg-core/lib/lifecycle.js:256:13
+
+pid: 4603
+hostname: baixindeMacBook-Pro.local
+
+2021-06-01 22:09:14,802 ERROR 4697 [egg-mongoose] mongodb://172.25.1.8:27017/oa disconnected

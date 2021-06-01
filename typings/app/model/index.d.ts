@@ -4,10 +4,12 @@
 import 'egg';
 import ExportError = require('../../../app/model/error');
 import ExportForum = require('../../../app/model/forum');
+import ExportProduct = require('../../../app/model/product');
 
 declare module 'egg' {
   interface IModel {
     Error: ReturnType<typeof ExportError>;
     Forum: ReturnType<typeof ExportForum>;
+    Product: ReturnType<typeof ExportProduct>;
   }
 }

@@ -2,7 +2,7 @@
 module.exports = app => {
   const mongoose = app.mongoose;
   const Schema = mongoose.Schema;
-
+  // 版块表
   const Forum = new Schema({ // tab数据
     create_type: {
       type: String,
